@@ -67,6 +67,8 @@ Bugfix: Add more padding to table to prevent overflowing the parent container
 The type of commit can be a bugfix, a refactor, an update, a new feature, etc., if it's a bug fix, it is really useful to explain which bug was resolved and how! 
 This is extremely helpful for large and ongoing projects as sometimes issues then can be solved faster by just checking how a problem was fixed in the past.
 
+I recommend [this guide](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/) for writing precise commit messages.
+
 ### Fonts
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and
