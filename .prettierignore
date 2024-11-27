@@ -1,0 +1,7 @@
+build
+node_modules
+tsconfig.json
+.prettierrc.json
+README.md
+jest.setup.ts
+.next
