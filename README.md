@@ -10,6 +10,7 @@ It is best used with node version `20.9.0`. You can use _nvm_ (`.nvmrc`) as your
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cb2276f6-78cf-40ba-9f69-78ff2eb8997f/deploy-status)](https://app.netlify.com/sites/millyscript/deploys)
 
 I decided to use [Netlify](https://netlify.com/) to deploy my website, but [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) would also have been an option.
+They both are time-saving, budget-friendly (for small websites), straightforward and easy to manage.
 
 ## :speech_balloon: Thoughts on best practices
 An overview of my thoughts on how to write clean frontends! :)
@@ -21,7 +22,7 @@ I prefer to sort my imports with `eslint-plugin-simple-import-sort` to clean up 
 npx eslint . --fix
 ```
 
-### Styling
+### :nail_care: Styling
 
 I like to use modular SCSS files for styling to keep a clean structure and avoid side effects in the future. 
 Page contents are wrapped inside `layout` component to make sure that all pages look similar.
@@ -56,7 +57,7 @@ General rules of thumb I like to go by:
 
 Also, basically: Make sure your build and tests work, so it won't destroy the pipeline :)
 
-### Commit messages
+### :writing_hand: Commit messages
 
 Example for a nice commit message:
 
