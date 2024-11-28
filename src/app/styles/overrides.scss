@@ -1,0 +1,19 @@
+/* My own colors */
+@import "variables.module";
+
+/* Bootstrap overrides */
+$primary: $cinereous;
+$secondary: $puce;
+
+html {
+    color: $richblack;
+    height: 100%;
+    font-family: "Helvetica", sans-serif;
+}
+
+body {
+    color: $richblack;
+    background: linear-gradient($alabaster 100%, transparent 0%) no-repeat;
+}
+
+@import "~bootstrap/scss/bootstrap.scss";

@@ -1,6 +1,24 @@
 {
+  "intro": {
+    "heading": "Hi, I'm Theo!",
+    "description": "Passionate and creative frontend developer in love with clean code, testing and design."
+  },
   "about": {
     "heading": "Hi, I'm Theo!",
     "description": "Passionate and creative frontend developer in love with clean code, testing and design."
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+  },
+  "Navigation": {
+    "about": "About me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "other": "Talks & Workshops",
+    "funFacts": "Fun facts"
+  },
+  "Footer": {
+    "credit": "by Theo. All rights reserved."
   }
 }

@@ -1,0 +1,18 @@
+@import "@/app/styles/variables.module";
+
+.footer {
+    font-family: var(--font-josefinSans);
+    font-weight: 200;
+    position: relative;
+    margin-top: -100px;
+    height: 100px;
+    clear: both;
+    background-color: transparent;
+    color: $cinereous;
+    padding: 2rem 7rem;
+    text-align: left;
+
+    @media screen and (max-width: $screen-m) {
+        padding: 2rem 4rem;
+    }
+}

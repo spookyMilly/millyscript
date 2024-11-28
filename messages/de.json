@@ -1,6 +1,24 @@
 {
+  "intro": {
+    "heading": "Hi, ich bin Theo",
+    "description": "Kreative Frontend-Entwicklerin verliebt in Clean Code und Design."
+  },
   "about": {
       "heading": "Hi, ich bin Theo",
     "description": "Kreative Frontend-Entwicklerin verliebt in Clean Code und Design."
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unbekannt}}"
+  },
+  "Navigation": {
+    "about": "Über mich",
+    "skills": "Skills",
+    "projects": "Projekte",
+    "other": "Sonstiges",
+    "funFacts": "Fun Facts"
+  },
+  "Footer": {
+    "credit": "von Theo. Alle Rechte vorbehalten."
   }
 }
