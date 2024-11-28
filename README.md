@@ -15,6 +15,9 @@ They both are time-saving, budget-friendly (for small websites), straightforward
 ## :speech_balloon: Thoughts on best practices
 An overview of my thoughts on how to write clean frontends! :)
 
+## Using prettier and ESLint
+I added some custom rules to my `.prettierrc.json` and `.eslintrc.json` files and recommend Husky to check before each commit if no rules have been broken.
+
 ### Sorting imports
 I prefer to sort my imports with `eslint-plugin-simple-import-sort` to clean up the code. You can run the following command to do it automatically:
 
@@ -26,13 +29,7 @@ npx eslint . --fix
 
 I like to use modular SCSS files for styling to keep a clean structure and avoid side effects in the future. 
 Page contents are wrapped inside `layout` component to make sure that all pages look similar.
-SCSS-classes are written in _camelCase_.
-
-### Prop naming for onChangeHandler
-
-For child components, I name functions that are being passed down by the parent `onXYZChange`.
-The function that is being passed down from the parent will be called `handleXYZ` and contains all logic.
-For example, `childComponent` has a prop called `onHandleChange` and its parent component passes the function as `handleChange`.
+SCSS-classes are written in _camelCase_. This keeps it easy for when doing a search, you can easily separate scss classes from other code.
 
 ### Component-based architecture
 
@@ -41,6 +38,11 @@ General rules of thumb:
 1. DRY (Don't repeat yourself)
 2. Components can be re-usable, but don't have to be if they are used for special feature cases
 3. Keep it simple (don't create too complex components with too many props)
+
+### How to keep the code easy to read
+
+Name each variable exactly after what their purpose is. No use of abbreviations such as `i` or `a`! 
+Same goes for functions, components, anything. If it's going to be a long name, so be it. The code should resemble like reading a story.
 
 ### Trunk based development
 
