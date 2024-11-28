@@ -1,12 +1,15 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useLocale } from "use-intl";
+
+import LocaleSwitcher from "@/app/[lang]/components/_localeSwitcher";
 
 import styles from "./page.module.scss";
 
 export default function Page() {
-    const router = useRouter();
+    const lang = useLocale();
+
     return (
         <div className={styles.page}>
             <main className={styles.main}>
@@ -19,25 +22,8 @@ export default function Page() {
                     priority
                 />
                 Main
-                <a
-                    href='#'
-                    onClick={() => {
-                        router.replace(`en`);
-                    }}
-                >
-                    EN
-                </a>{" "}
-                |{" "}
-                <a
-                    href='#'
-                    onClick={() => {
-                        router.replace(`de`);
-                    }}
-                >
-                    DE
-                </a>
-                <br />
-                <Link href={"/about"}>About</Link>
+                <Link href={`/${lang}/about`}>About</Link>
+                <LocaleSwitcher />
             </main>
             <footer className={styles.footer}>Footer</footer>
         </div>

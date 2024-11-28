@@ -1,9 +1,10 @@
-"use client";
-
 import React from "react";
 import localFont from "next/font/local";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
+
+import { routing } from "@/i18n/routing";
 
 import "./globals.scss";
 
@@ -25,13 +26,14 @@ export default async function RootLayout({
     children: React.ReactNode;
     params: { lang: string };
 }) {
-    let messages;
-    try {
-        messages = (await import(`../../i18n/translations/${lang}.json`)).default;
-    } catch (error) {
-        console.error("error getting translations:", error);
+    // Ensure that the incoming `locale` is valid
+    if (!routing.locales.includes(lang as any)) {
         notFound();
     }
+
+    // Providing all messages to the client
+    // side is the easiest way to get started
+    const messages = await getMessages();
 
     return (
         <html lang={lang} className='dark'>
