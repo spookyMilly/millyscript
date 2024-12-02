@@ -1,11 +1,8 @@
 {
   "intro": {
-    "heading": "Hi, ich bin Theo",
-    "description": "Kreative Frontend-Entwicklerin verliebt in Clean Code und Design."
-  },
-  "about": {
-      "heading": "Hi, ich bin Theo",
-    "description": "Kreative Frontend-Entwicklerin verliebt in Clean Code und Design."
+    "heading": "Hi, ich bin Theo. Kreative Frontend-Entwicklerin verliebt in UX, Clean Code und Design.",
+    "description": "Ich arbeite seit 2016 als Frontend-Entwicklerin und stehe für saubere Frontend-Architekturen, präzises Testing und agiles Arbeiten in interdisziplinären, cross-funktionalen Teams. <br/><br/>Mein Fokus: Prozesse modernisieren, nutzerzentrierte Webanwendungen entwickeln und dabei strukturiert und lösungsorientiert arbeiten.",
+    "linkToProjects": "<link>Zur Projektübersicht</link>"
   },
   "LocaleSwitcher": {
     "label": "Sprache ändern",

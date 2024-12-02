@@ -1,15 +1,12 @@
 {
   "intro": {
-    "heading": "Hi, I'm Theo!",
-    "description": "Passionate and creative frontend developer in love with clean code, testing and design."
-  },
-  "about": {
-    "heading": "Hi, I'm Theo!",
-    "description": "Passionate and creative frontend developer in love with clean code, testing and design."
+    "heading": "Hi, I'm Theo. A creative frontend developer passionate about UX, clean code, and design.",
+    "description": "I've been working as a frontend developer since 2016, focusing on clean frontend architectures, precise testing, and agile collaboration in interdisciplinary, cross-functional teams. <br/><br/>My focus: modernizing processes, developing user-centered web applications, and approaching tasks with structure and a solution-oriented mindset.",
+    "linkToProjects": "<link>Project overview</link>"
   },
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+    "locale": "{locale, select, de {Deutsch} en {English} other {Unknown}}"
   },
   "Navigation": {
     "skills": "Skills",

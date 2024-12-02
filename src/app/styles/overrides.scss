@@ -24,6 +24,17 @@ body {
     font-family: var(--font-bodoni-moda), serif;
 }
 
+p a {
+    color: $gold;
+    border-bottom: 1px solid $gold;
+    text-decoration: none;
+    font-style: italic;
+}
+
+p a:hover {
+    border-bottom: 1px solid transparent;
+}
+
 h1,
 h2,
 h3 {
