@@ -12,13 +12,12 @@
     "locale": "{locale, select, de {Deutsch} en {English} other {Unbekannt}}"
   },
   "Navigation": {
-    "about": "Über mich",
     "skills": "Skills",
     "projects": "Projekte",
-    "other": "Sonstiges",
+    "other": "Talks & Workshops",
     "funFacts": "Fun Facts"
   },
   "Footer": {
-    "credit": "von Theo. Alle Rechte vorbehalten."
+    "credit": "Theodora Milona. Alle Rechte vorbehalten."
   }
 }

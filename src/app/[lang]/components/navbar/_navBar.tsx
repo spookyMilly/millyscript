@@ -18,9 +18,6 @@ export default function NavBar() {
             <Navbar.Toggle aria-controls='basic-navbar-nav' />
             <Navbar.Collapse id='basic-navbar-nav' className={" justify-content-end"}>
                 <Nav className='d-flex align-items-lg-center align-items-end gap-2 gap-lg-0'>
-                    <Nav.Link as={Link} href={`/about`} className={styles.navLink}>
-                        {t("about")}
-                    </Nav.Link>
                     <Nav.Link as={Link} href={`/skills`} className={styles.navLink}>
                         {t("skills")}
                     </Nav.Link>
