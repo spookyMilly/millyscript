@@ -4,7 +4,6 @@ import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { useTranslations } from "next-intl";
 
-import LocaleSwitcher from "@/app/[lang]/components/navbar/_localeSwitcher";
 import { Link } from "@/i18n/routing";
 
 import styles from "./navbar.module.scss";
@@ -34,7 +33,6 @@ export default function NavBar() {
                     <Nav.Link as={Link} href={`/fun-facts`} className={styles.navLink}>
                         {t("funFacts")}
                     </Nav.Link>
-                    <LocaleSwitcher />
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

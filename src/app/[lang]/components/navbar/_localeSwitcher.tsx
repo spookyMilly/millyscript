@@ -26,7 +26,9 @@ export default function LocaleSwitcher() {
 
     return (
         <Dropdown>
-            <Dropdown.Toggle variant={"primary"}>{t("label")}</Dropdown.Toggle>
+            <Dropdown.Toggle variant={"outline-light"} size={"sm"}>
+                {t("label")}
+            </Dropdown.Toggle>
             <Dropdown.Menu>
                 {routing.locales.map((currentLanguage) => (
                     <Dropdown.Item

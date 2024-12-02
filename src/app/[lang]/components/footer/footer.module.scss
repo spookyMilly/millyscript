@@ -9,6 +9,8 @@
     background-color: transparent;
     padding: 2rem 7rem;
     text-align: left;
+    display: flex;
+    justify-content: space-between;
 
     @media screen and (max-width: $screen-m) {
         padding: 2rem 4rem;
