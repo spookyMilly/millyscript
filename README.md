@@ -75,5 +75,4 @@ I recommend [this guide](https://www.freecodecamp.org/news/how-to-write-better-g
 ### Fonts
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and
-load the Google font "Ghost".
-It is loaded in the `layout.tsx` and is available in lighter and thicker font weights.
+load the Google font "Playfair Display" as well as "Bodoni Moda" as variable fonts.
