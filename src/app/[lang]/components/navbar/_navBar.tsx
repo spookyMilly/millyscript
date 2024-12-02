@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { Nav } from "react-bootstrap";
 import { useTranslations } from "next-intl";
@@ -8,7 +10,7 @@ import { Link } from "@/i18n/routing";
 export default function NavBar() {
     const t = useTranslations("Navigation");
     return (
-        <Nav defaultActiveKey='/' className='flex-column'>
+        <Nav defaultActiveKey='/' className='flex-row'>
             <Nav.Link as={Link} href={`/about`}>
                 {t("about")}
             </Nav.Link>

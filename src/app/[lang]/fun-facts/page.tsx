@@ -1,3 +1,11 @@
+import React from "react";
+
+import FunFactsCard from "@/app/[lang]/components/funFacts/_funFactsCard";
+
 export default function FunFacts() {
-    return <div>Fun facts</div>;
+    return (
+        <div>
+            <FunFactsCard />
+        </div>
+    );
 }

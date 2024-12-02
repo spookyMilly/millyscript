@@ -2,18 +2,32 @@
 @import "variables.module";
 
 /* Bootstrap overrides */
-$primary: $cinereous;
-$secondary: $puce;
+$primary: white;
+$secondary: $gold;
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+:root {
+    --font-garamond: var(--font-bodoni-moda);
+    --font-playfair-display: var(--font-playfair-display);
+}
 
 html {
-    color: $richblack;
     height: 100%;
-    font-family: "Helvetica", sans-serif;
+    color: white;
+    font-family: var(--font-bodoni-moda), serif;
 }
 
 body {
-    color: $richblack;
-    background: linear-gradient($alabaster 100%, transparent 0%) no-repeat;
+    color: white;
+    background: linear-gradient($backgroundTeal 100%, transparent 0%) no-repeat;
+    font-family: var(--font-bodoni-moda), serif;
 }
 
-@import "~bootstrap/scss/bootstrap.scss";
+h1,
+h2,
+h3 {
+    font-family: var(--font-playfair-display), serif;
+    font-weight: 400;
+    margin: 2rem 0;
+}

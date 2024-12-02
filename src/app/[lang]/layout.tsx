@@ -4,7 +4,8 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 
 import { Footer } from "@/app/[lang]/components/footer/_footer";
-import { josefinSans, yesevaOne } from "@/fonts";
+import NavBar from "@/app/[lang]/components/navbar/_navBar";
+import { bodoniModa, playfairDisplay } from "@/fonts";
 import { routing } from "@/i18n/routing";
 
 import "@/app/styles/overrides.scss";
@@ -24,17 +25,24 @@ export default async function RootLayout({
     const messages = await getMessages();
 
     return (
-        <html lang={lang}>
-            <body className={`${josefinSans.variable} ${yesevaOne.variable}`}>
-                <div className={styles.mainContainer}>
-                    <main className={styles.contentContainer}>
-                        <NextIntlClientProvider locale={lang} messages={messages}>
-                            {children}
-                        </NextIntlClientProvider>
-                    </main>
-                    <Footer />
-                </div>
-            </body>
+        <html
+            lang={lang}
+            style={
+                {
+                    "--font-bodoni-moda": bodoniModa.style.fontFamily,
+                    "--font-playfair-display": playfairDisplay.style.fontFamily,
+                } as React.CSSProperties
+            }
+        >
+            <NextIntlClientProvider locale={lang} messages={messages}>
+                <body>
+                    <div className={styles.mainContainer}>
+                        <NavBar />
+                        <main className={styles.contentContainer}>{children}</main>
+                        <Footer />
+                    </div>
+                </body>
+            </NextIntlClientProvider>
         </html>
     );
 }

@@ -14,7 +14,7 @@ export default function IntroCard() {
                 <Image className={styles.avatar} src={avatar} alt='Theodora' priority />
             </div>
             <div>
-                <h1 className={styles.introHeading}>
+                <h1>
                     {t("heading")}&nbsp;
                     <span>👋 </span>
                 </h1>

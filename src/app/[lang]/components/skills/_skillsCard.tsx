@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 
-export default function AboutCard() {
-    const t = useTranslations("about");
+export default function SkillsCard() {
+    const t = useTranslations("skills");
     return <h1>{t("heading")}</h1>;
 }

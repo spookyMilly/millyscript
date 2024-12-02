@@ -1,10 +1,11 @@
-import { Josefin_Sans, Yeseva_One } from "next/font/google";
+import { Bodoni_Moda, Playfair_Display } from "next/font/google";
 
 // define your variable fonts
-const josefinSans = Josefin_Sans({
-    variable: "--font-josefin-sans",
+const playfairDisplay = Playfair_Display({
+    weight: "400",
+    variable: "--font-playfair-display",
     subsets: ["latin"],
 });
-const yesevaOne = Yeseva_One({ weight: "400", variable: "--font-yeseva-one", subsets: ["latin"] });
+const bodoniModa = Bodoni_Moda({ variable: "--font-bodoni-moda", subsets: ["latin"] });
 
-export { josefinSans, yesevaOne };
+export { playfairDisplay, bodoniModa };
