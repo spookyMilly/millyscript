@@ -15,10 +15,18 @@ export default function ProjectsCard() {
                 <hr className={`${styles.titleBorder} w-50`} />
                 <small className={styles.projectCardSubtitle}>{t("description")}</small>
                 {/*<p>{t("filter")}</p>*/}
+                <div className={"mt-4"}>
+                    {projects.map((project) => (
+                        <span className={styles.projectLink} key={`link-${project.id}`}>
+                            » <a href={`#project-${project.id}`}>{t(`projects.${project.id}.shortTitle`)}</a>
+                            <br />
+                        </span>
+                    ))}
+                </div>
             </div>
             <div>
                 {projects.map((project) => (
-                    <div className='mb-5' key={project.id}>
+                    <div className='mb-5' key={project.id} id={`project-${project.id}`}>
                         <ProjectWithDescription project={project} />
                         <hr className={`${styles.projectSeparator} w-25`} />
                     </div>

@@ -13,6 +13,7 @@
         "responsibilities": "Auswahl einiger übernommene Aufgaben:",
         "projects": {
             "project1": {
+                "shortTitle": "Modernisierung einer Lagerverwaltung",
                 "projectTitle": "Modernisierung und Weiterentwicklung für die Lagerverwaltung eines renommierten Online-Händlers",
                 "role": "Beraterin, Frontend-Entwicklerin",
                 "customerType": "für einen europaweit operierenden Onlinehändler",
@@ -23,6 +24,7 @@
                 "result": "Das Projekt digitalisierte erfolgreich den Picking-Prozess für ca. 25.000 Artikelverkäufe pro Tag und steigerte die Genauigkeit erheblich. Kernstück war eine browserbasierte Lösung für Barcode-Scanner, die effiziente und fehlerfreie Datenerfassung ermöglichte. Optimierte Benutzeroberflächen sorgten für barrierefreie Nutzung, auch für Mitarbeitende mit Sehschwäche oder Analphabetismus, was die Produktivität deutlich erhöhte. Zudem wurden externe Mitarbeitende in modernen Frontend-Technologien wie React geschult, sodass sie das Projekt nach Übergabe selbstständig weiterentwickeln konnten."
             },
             "project2": {
+                "shortTitle": "Neuentwicklung einer Personalvermittlungsplattform",
                 "projectTitle": "Neuentwicklung einer Plattform für die Personalvermittlung in der Pflegebranche",
                 "role": "Frontend-Entwicklerin",
                 "customerType": "für einen Personalvermittler in der Pflegebranche",
@@ -32,6 +34,7 @@
                 "responsibilitiesTaken_4": "Implementierung von Monitoring-Lösungen mit Sentry zur Optimierung der Systemstabilität"
             },
             "project3": {
+                "shortTitle": "Hochperformanter Fashion-Onlineshop",
                 "projectTitle": "Neuentwicklung eines Onlineshops für Streetwear",
                 "role": "Frontend-Entwicklerin",
                 "customerType": "für ein deutsches, lokal ansässiges E-Commerce-Unternehmen",
@@ -41,6 +44,7 @@
                 "responsibilitiesTaken_4": "Aufbau und Pflege einer stabilen Continuous Integration / Continuous Deployment zur Unterstützung regelmäßiger und verlässlicher Shop-Updates"
             },
             "project4": {
+                "shortTitle": "Nutzeroberfläche für Wissenschaftler und KI",
                 "projectTitle": "Neuentwicklung einer Nutzeroberflächer für verteiltes Lernen mittels KI",
                 "role": "Frontend-Entwicklerin",
                 "customerType": "für ein wissenschaftliches Institut (IT-Forensik und Mediensicherheit)",
@@ -50,6 +54,7 @@
                 "responsibilitiesTaken_4": "Regelmäßige Planung und Durchführung von Sprint-Reviews zur Präsentation des Projektfortschritts und zur Abstimmung mit allen relevanten Stakeholdern"
             },
             "project5": {
+                "shortTitle": "Neugestaltung und -entwicklung einer Webseite",
                 "projectTitle": "Neuentwicklung und -gestaltung einer Internetpräsenz",
                 "role": "Frontend-Entwicklerin, UX/UI-Designerin",
                 "customerType": "für einen IT-Dienstleister",
@@ -59,6 +64,7 @@
                 "responsibilitiesTaken_4": "Entwicklung einer performanten, kosteneffizienten und wartungsfreundlichen Weblösung, die den langfristigen Anforderungen des Unternehmens gerecht wird"
             },
             "project6": {
+                "shortTitle": "Browserbasierter Ebook-Reader",
                 "projectTitle": "Entwicklung eines browserbasiertem Ebook-Readers für Desktop, Tablet und Mobile",
                 "role": "Frontend-Entwicklerin, UX/UI-Designerin",
                 "customerType": "für einen IT-Dienstleister in der Medienbranche",
@@ -68,6 +74,7 @@
                 "responsibilitiesTaken_4": "Konzeption und Durchführung von User-Experience- und Usability-Tests"
             },
             "project7": {
+                "shortTitle": "Online-Service zur Sicherung von Fotografien",
                 "projectTitle": "Service zur Markierung von Bildern mit unsichtbaren Wasserzeichen",
                 "role": "Frontend-Entwicklerin, Illustratorin, UX/UI-Designerin",
                 "customerType": "für einen IT-Dienstleister in der Mediensicherheitsbranche",

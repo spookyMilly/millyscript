@@ -13,6 +13,7 @@
         "responsibilities": "Responsibilities taken:",
         "projects": {
             "project1": {
+                "shortTitle": "Modernization of warehouse management services",
                 "projectTitle": "Modernization and enhancement of warehouse management for a renowned online retailer",
                 "role": "Consultant, Frontend Developer",
                 "customerType": "for a europe-wide operating online retailer",
@@ -23,6 +24,7 @@
                 "result": "The project successfully digitized the picking process for approximately 25,000 daily item sales, significantly improving accuracy. A key feature was a browser-based solution for barcode scanners, enabling efficient and error-free data capture. Optimized interfaces ensured accessibility for employees with visual impairments or illiteracy, boosting productivity. External staff received training in modern frontend technologies like React, enabling them to independently continue development after handover."
             },
             "project2": {
+                "shortTitle": "Recruitment platform with modern tech-stack",
                 "projectTitle": "Development of a new platform for recruitment in the healthcare sector",
                 "role": "Frontend Developer",
                 "customerType": "for a healthcare company",
@@ -32,6 +34,7 @@
                 "responsibilitiesTaken_4": "Implementation of real-time monitoring with Sentry to improve system stability and performance"
             },
             "project3": {
+                "shortTitle": "Highly performant online shop",
                 "projectTitle": "Development of a new online shop for streetwear",
                 "role": "Frontend Developer",
                 "customerType": "for a German, locally based e-commerce company",
@@ -41,6 +44,7 @@
                 "responsibilitiesTaken_4": "Established and maintained a robust continuous integration/continuous deployment pipeline to support regular and reliable shop updates"
             },
             "project4": {
+                "shortTitle": "User interface for scientists",
                 "projectTitle": "Development of a user interface for distributed learning using AI",
                 "role": "Frontend Developer",
                 "customerType": "for a scientific institute (IT forensics and media security)",
@@ -50,6 +54,7 @@
                 "responsibilitiesTaken_4": "Regularly planned and conducted sprint reviews to present progress and align with stakeholders"
             },
             "project5": {
+                "shortTitle": "Webapp relaunch and redesign",
                 "projectTitle": "Development and redesign of an online presence",
                 "role": "Frontend Developer, UX/UI Designer",
                 "customerType": "for an IT service provider",
@@ -59,6 +64,7 @@
                 "responsibilitiesTaken_4": "Developed a performant, cost-efficient, and maintainable web solution to meet long-term business needs"
             },
             "project6": {
+                "shortTitle": "Browser-based ebook reader",
                 "projectTitle": "Development of a browser-based ebook reader for desktop, tablet, and mobile",
                 "role": "Frontend Developer, UX/UI Designer",
                 "customerType": "for an IT service provider in the media industry",
@@ -68,6 +74,7 @@
                 "responsibilitiesTaken_4": "Planned and conducted user experience and usability tests"
             },
             "project7": {
+                "shortTitle": "Online service to secure photographs",
                 "projectTitle": "Service for marking images with invisible watermarks",
                 "role": "Frontend Developer, Illustrator, UX/UI Designer",
                 "customerType": "for an IT service provider in the media security sector",
