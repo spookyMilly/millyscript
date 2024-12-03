@@ -12,7 +12,12 @@ export default function IntroCard() {
     return (
         <div className={"d-flex flex-lg-row flex-column gap-4"}>
             <div>
-                <Image className={styles.avatar} src={avatar} alt='Theodora' priority />
+                <Image
+                    className={styles.avatar}
+                    src={avatar}
+                    alt='Ein Foto von mir hoch oben in den Bergen in Norwegen'
+                    priority
+                />
             </div>
             <div>
                 <h1>{t("heading")}</h1>

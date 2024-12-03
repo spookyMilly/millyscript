@@ -103,6 +103,27 @@
         "skill_13": "Clean Code und Clean Architecture",
         "skill_14": "Unit-Tests, Ende-zu-Ende-Tests, Integration-Tests"
     },
+    "Other": {
+        "heading": "Talks & Workshops",
+        "description": "Mein Wissen zu teilen und andere zu inspirieren, ist meine Leidenschaft. Wenn ich Zeit finde, halte ich gerne Workshops in Kleingruppen oder schreibe Beiträge zu Themen, die mich begeistern – von modernsten Technologien bis hin zu innovativen Ansätzen in Entwicklung und Design. Ob es darum geht, bessere Lösungen zu entwickeln oder Zusammenarbeit zu fördern, ich freue mich immer darauf, Ideen auszutauschen, Kontakte zu knüpfen und gemeinsam zu lernen.",
+        "link": "Hier geht es zum",
+        "workshop_1_title": "Frontend Frameworks: Beliebtheit & Einsatzzwecke",
+        "workshop_1_description": "Interne Analyse von 2023 zu neuen und bewährten Frameworks und deren technischen Eigenschaften.",
+        "workshop_8_title": "Frontend-Architekturen & Einführung in React",
+        "workshop_8_description": "Ein einstündiger Workshop für Backend-Entwickler zur Einführung in moderne Frontend-Architekturen mit React.",
+        "workshop_2_title": "Design-Workshop für Entwickler",
+        "workshop_2_description": "Interner zweistündiger Mini-Workshop für Entwickler zum Thema Gestaltung und Grundlagen von UI- und UX-Design.",
+        "workshop_3_title": "10 great reasons to use Gatsby in your next project",
+        "workshop_3_description": "Blogpost mit 10 Vorteilen, die Gatsby als Static Site Generator bietet.",
+        "workshop_4_title": "Improving any UI with 10 usability heuristics",
+        "workshop_4_description": "Blogpost über 10 UI-Heuristiken, die sich bereits seit über 30 Jahren bewährt haben und heute noch aktuell sind.",
+        "workshop_5_title": "Recruiting 4.0 – wie wir ein intuitives Nutzererlebnis für Bewerber geschaffen haben",
+        "workshop_5_description": "Blogpost zum Thema Recruiting, in dem es um die Neugestaltung von Jobseiten geht. Unsere Ergebnisse wurden auch im Buch von Henner Knabenreich zum Thema Recruiting honoriert.",
+        "workshop_6_title": "Für mehr Diversität in Entwickler-Teams",
+        "workshop_6_description": "Kolumne im Java-Magazin über die Vorteile von mehr Vielfalt in Entwickler-Teams.",
+        "workshop_7_title": "UX meets Design",
+        "workshop_7_description": "Talk zum Thema UX-Design und Frontend-Entwicklung anhand neugestalteter Jobseiten."
+    },
     "LocaleSwitcher": {
         "label": "Sprache ändern",
         "locale": "{locale, select, de {Deutsch} en {English} other {Unbekannt}}"

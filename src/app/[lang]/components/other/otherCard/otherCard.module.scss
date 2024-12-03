@@ -1,0 +1,32 @@
+@import "src/app/styles/variables.module";
+
+.otherCardGrid {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    grid-column-gap: 4rem;
+
+    @media screen and (max-width: $screen-m) {
+        grid-template-columns: auto;
+    }
+}
+
+.otherCardHeading {
+    font-weight: bolder;
+    letter-spacing: 1.5pt;
+    margin-bottom: 1rem;
+}
+
+.titleBorder {
+    color: $gold;
+    opacity: 0.85;
+}
+
+.talkImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.workshopSeparator {
+    color: $gold;
+    opacity: 0.55;
+}

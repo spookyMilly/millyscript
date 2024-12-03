@@ -1,0 +1,21 @@
+@import "src/app/styles/variables.module";
+
+.type {
+    text-transform: uppercase;
+    color: $lightBlue;
+}
+
+.heading {
+    color: $gold;
+}
+
+.workshopLink {
+    color: $lightBlue;
+    border-bottom: 1px solid $lightBlue;
+    text-decoration: none;
+}
+
+.workshopLink:hover {
+    color: $lightBlue;
+    border-bottom: 0;
+}

@@ -103,6 +103,27 @@
         "skill_13": "Clean Code and Clean Architecture",
         "skill_14": "Unit Tests, E2E testing, Integration Tests"
     },
+    "Other": {
+        "heading": "Talks & Workshops",
+        "description": "Sharing knowledge and inspiring others is my passion. If I find enough time, I enjoy giving workshops in small groups or write on topics that spark my curiosity, from cutting-edge technologies to innovative approaches in development and design. Whether it's about building better solutions or fostering collaboration, I'm always eager to connect, exchange ideas, and learn together.",
+        "link": "Link to",
+        "workshop_1_title": "Frontend Frameworks: Popularity & Use Cases",
+        "workshop_1_description": "Internal 2023 analysis of new and established frameworks and their technical characteristics",
+        "workshop_8_title": "Frontend Architecture Design & Introduction to React",
+        "workshop_8_description": "A one-hour workshop especially for backend developers to introduce them to modern frontend architectures built with React",
+        "workshop_2_title": "Design Workshop for Developers",
+        "workshop_2_description": "Internal two-hour mini-workshop for developers on design principles and the basics of UI and UX design",
+        "workshop_3_title": "10 Great Reasons to Use Gatsby in Your Next Project",
+        "workshop_3_description": "Blog post highlighting 10 advantages of using Gatsby as a static site generator",
+        "workshop_4_title": "Improving Any UI with 10 Usability Heuristics",
+        "workshop_4_description": "Blog post discussing 10 time-tested UI heuristics that have been relevant for over 30 years and are still applicable today",
+        "workshop_5_title": "Recruiting 4.0 – How We Created an Intuitive User Experience for Applicants",
+        "workshop_5_description": "Blog post about recruiting and redesigning job pages. Our results were also recognized in Henner Knabenreich's book on recruiting.",
+        "workshop_6_title": "For More Diversity in Development Teams",
+        "workshop_6_description": "Column in Java Magazine about the benefits of increased diversity in development teams",
+        "workshop_7_title": "UX Meets Design",
+        "workshop_7_description": "Talk on UX design and frontend development using redesigned job pages as an example"
+    },
     "LocaleSwitcher": {
         "label": "Change language",
         "locale": "{locale, select, de {Deutsch} en {English} other {Unknown}}"
