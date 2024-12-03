@@ -10,6 +10,7 @@ import { routing } from "@/i18n/routing";
 
 import "@/app/styles/overrides.scss";
 import styles from "./layout.module.scss";
+import Head from "next/head";
 
 export default async function RootLayout({
     children,
@@ -35,6 +36,9 @@ export default async function RootLayout({
                 } as React.CSSProperties
             }
         >
+            <Head>
+                <title>Millyscript</title>
+            </Head>
             <NextIntlClientProvider locale={lang} messages={messages}>
                 <body>
                     <div className={styles.mainContainer}>
