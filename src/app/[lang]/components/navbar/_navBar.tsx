@@ -2,6 +2,7 @@
 
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
+import { Github, Linkedin } from "react-bootstrap-icons";
 import { useTranslations } from "next-intl";
 
 import { Link } from "@/i18n/routing";
@@ -29,6 +30,22 @@ export default function NavBar() {
                     </Nav.Link>
                     <Nav.Link as={Link} href={`/fun-facts`} className={styles.navLink}>
                         {t("funFacts")}
+                    </Nav.Link>
+                    <Nav.Link
+                        className={styles.navLink}
+                        href={"https://github.com/spookyMilly"}
+                        rel={"noopener noreferrer"}
+                        target={"_blank"}
+                    >
+                        <Github />
+                    </Nav.Link>
+                    <Nav.Link
+                        className={styles.navLink}
+                        href={"https://www.linkedin.com/in/theodora-milona-b593761a8/"}
+                        rel={"noopener noreferrer"}
+                        target={"_blank"}
+                    >
+                        <Linkedin />
                     </Nav.Link>
                 </Nav>
             </Navbar.Collapse>

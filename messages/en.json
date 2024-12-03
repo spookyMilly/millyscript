@@ -124,6 +124,15 @@
         "workshop_7_title": "UX Meets Design",
         "workshop_7_description": "Talk on UX design and frontend development using redesigned job pages as an example"
     },
+    "FunFacts": {
+        "heading": "Fun Facts",
+        "funFact_1": "I love animals, especially Djungarian dwarf hamsters.",
+        "funFact_2": "For three months, I went to a japanese middle school in 2009.",
+        "funFact_3": "I enjoy practicing yoga since 2013 in my free time.",
+        "funFact_4": "I love watching horror movies.",
+        "funFact_5": "I like to paint landscapes with watercolors.",
+        "funFact_6": "I was 13 years old when I built my first website."
+    },
     "LocaleSwitcher": {
         "label": "Change language",
         "locale": "{locale, select, de {Deutsch} en {English} other {Unknown}}"

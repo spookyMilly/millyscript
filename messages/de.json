@@ -124,6 +124,15 @@
         "workshop_7_title": "UX meets Design",
         "workshop_7_description": "Talk zum Thema UX-Design und Frontend-Entwicklung anhand neugestalteter Jobseiten."
     },
+    "FunFacts": {
+        "heading": "Fun Facts",
+        "funFact_1": "Ich liebe Tiere, vor allem Dsungarische Zwerghamster.",
+        "funFact_2": "Ich bin 2009 für drei Monate in Osaka, Japan, zur Schule gegangen.",
+        "funFact_3": "Ich mache seit 2013 liebend gerne Yoga in meiner Freizeit.",
+        "funFact_4": "Ich gucke sehr gerne Horrorfilme.",
+        "funFact_5": "Ich male gerne Landschaften mit Aquarell.",
+        "funFact_6": "Ich habe mit 13 Jahren meine erste Webseite erstellt."
+    },
     "LocaleSwitcher": {
         "label": "Sprache ändern",
         "locale": "{locale, select, de {Deutsch} en {English} other {Unbekannt}}"
