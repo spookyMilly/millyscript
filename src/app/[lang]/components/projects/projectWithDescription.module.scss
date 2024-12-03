@@ -1,0 +1,22 @@
+@import "src/app/styles/variables.module";
+
+.subtitle {
+    color: $lightBlue;
+    opacity: 0.75;
+    font-style: italic;
+}
+
+.easierToRead {
+    letter-spacing: 0.15pt;
+    line-height: 1.7rem;
+    font-family: var(--font-noto-serif);
+}
+
+.miniHeading {
+    color: $lightBlue;
+}
+
+.technologyTag {
+    display: inline-block;
+    padding: 0 0.25rem;
+}

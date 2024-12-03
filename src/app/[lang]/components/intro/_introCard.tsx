@@ -8,7 +8,7 @@ import { Link } from "@/i18n/routing";
 import styles from "./introCard.module.scss";
 
 export default function IntroCard() {
-    const t = useTranslations("intro");
+    const t = useTranslations("Intro");
     return (
         <div className={"d-flex flex-lg-row flex-column gap-4"}>
             <div>

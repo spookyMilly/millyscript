@@ -1,20 +1,90 @@
 {
-  "intro": {
-    "heading": "Hi, ich bin Theo. Kreative Frontend-Entwicklerin verliebt in UX, Clean Code und Design.",
-    "description": "Ich arbeite seit 2016 als Frontend-Entwicklerin und stehe für saubere Frontend-Architekturen, präzises Testing und agiles Arbeiten in interdisziplinären, cross-funktionalen Teams. <br/><br/>Mein Fokus: Prozesse modernisieren, nutzerzentrierte Webanwendungen entwickeln und dabei strukturiert und lösungsorientiert arbeiten.",
-    "linkToProjects": "<link>Zur Projektübersicht</link>"
-  },
-  "LocaleSwitcher": {
-    "label": "Sprache ändern",
-    "locale": "{locale, select, de {Deutsch} en {English} other {Unbekannt}}"
-  },
-  "Navigation": {
-    "skills": "Skills",
-    "projects": "Projekte",
-    "other": "Talks & Workshops",
-    "funFacts": "Fun Facts"
-  },
-  "Footer": {
-    "credit": "Theodora Milona. Alle Rechte vorbehalten."
-  }
+    "Intro": {
+        "heading": "Hi, ich bin Theo. Kreative Frontend-Entwicklerin verliebt in UX, Clean Code und Design.",
+        "description": "Ich arbeite seit 2016 als Frontend-Entwicklerin und stehe für saubere Frontend-Architekturen, präzises Testing und agiles Arbeiten in interdisziplinären, cross-funktionalen Teams. <br/><br/>Mein Fokus: Prozesse modernisieren, nutzerzentrierte Webanwendungen entwickeln und dabei strukturiert und lösungsorientiert arbeiten.",
+        "linkToProjects": "<link>Zur Projektübersicht</link>"
+    },
+    "Projects": {
+        "heading": "Projekte",
+        "description": "Eine kleine Auswahl meiner Lieblingsprojekte, an denen ich mitgewirkt habe.",
+        "filter": "Filtern nach Technologie:",
+        "technologiesUsed": "Verwendete Technologien",
+        "result": "Ergebnis",
+        "responsibilities": "Übernommene Aufgaben",
+        "projects": {
+            "project1": {
+                "subtitle": "Projekt 1",
+                "projectTitle": "Modernisierung und Weiterentwicklung für die Lagerverwaltung eines renommierten Online-Händlers",
+                "customerType": "Europaweit operierender Onlinehändler",
+                "duration": "2 Jahre",
+                "responsibilitiesTaken_1": "Projektkommunikation auf Englisch für eine reibungslose internationale Zusammenarbeit",
+                "responsibilitiesTaken_2": "Beratung und Unterstützung externer Kollegen bei moderner Web-Technologie",
+                "responsibilitiesTaken_3": "Durchführung zahlreicher Pair-Programming- und Review-Sessions zur aktiven Wissensvermittlung und Förderung der Zusammenarbeit im Team",
+                "responsibilitiesTaken_4": "Entwicklung spezialisierter Features zur Unterstützung von browserbasierten Anwendungen für Barcode-Scanner, um eine effiziente Datenerfassung zu gewährleisten",
+                "responsibilitiesTaken_5": "Enge Zusammenarbeit mit Logistikexperten und Backend-Entwicklern zur Optimierung und Neuentwicklung von Schnittstellen für eine nahtlose Systemintegration und verbesserten Prozessabläufen",
+                "result": "Das Projekt digitalisierte erfolgreich den Picking-Prozess für ca. 25.000 Artikelverkäufe pro Tag und steigerte die Genauigkeit erheblich. Kernstück war eine browserbasierte Lösung für Barcode-Scanner, die effiziente und fehlerfreie Datenerfassung ermöglichte. Optimierte Benutzeroberflächen sorgten für barrierefreie Nutzung, auch für Mitarbeitende mit Sehschwäche oder Analphabetismus, was die Produktivität deutlich erhöhte. Zudem wurden externe Mitarbeitende in modernen Frontend-Technologien wie React geschult, sodass sie das Projekt nach Übergabe selbstständig weiterentwickeln konnten."
+            },
+            "project2": {
+                "subtitle": "Projekt 2",
+                "projectTitle": "Neuentwicklung einer Plattform für die Personalvermittlung in der Pflegebranche",
+                "customerType": "Pflegebranche",
+                "duration": "1 Jahr, 5 Monate",
+                "responsibilitiesTaken_1": "Entwicklung einer skalierbaren Frontend-Architektur basierend auf modernen Best Practices",
+                "responsibilitiesTaken_2": "Schnelle Bereitstellung einer minimal funktionsfähigen Plattform zur frühzeitigen Einbindung der Endnutzer",
+                "responsibilitiesTaken_3": "Regelmäßige Abstimmung mit Stakeholdern zur Anpassung der Projektanforderungen",
+                "responsibilitiesTaken_4": "Übersetzung von Kundenanforderungen in klare und umsetzbare User Stories",
+                "responsibilitiesTaken_5": "Implementierung von Monitoring-Lösungen mit Sentry zur Optimierung der Systemstabilität",
+                "result": "Die Plattform bietet Pflege-Dienstleistern eine effiziente Lösung zur Verwaltung von Aufträgen aus Krankenhäusern und Pflegeeinrichtungen. Kernfunktionen umfassen einen flexiblen Mitarbeiterkalender zur Einsatzplanung, dynamische Formulare für strukturierte Dateneingaben und eine leistungsstarke Schnellsuche für schnelle, präzise Datenabfragen. Der Fokus lag auf hoher Performance und der Digitalisierung bestehender Prozesse zur Optimierung und effizienten Abbildung von Geschäftslogiken."
+            },
+            "project3": {
+                "subtitle": "Projekt 3",
+                "projectTitle": "",
+                "customerType": "",
+                "duration": "",
+                "responsibilitiesTaken_1": "",
+                "responsibilitiesTaken_2": "",
+                "responsibilitiesTaken_3": "",
+                "responsibilitiesTaken_4": "",
+                "responsibilitiesTaken_5": "",
+                "result": ""
+            },
+            "project4": {
+                "subtitle": "Projekt 4",
+                "projectTitle": "",
+                "customerType": "",
+                "duration": "",
+                "responsibilitiesTaken_1": "",
+                "responsibilitiesTaken_2": "",
+                "responsibilitiesTaken_3": "",
+                "responsibilitiesTaken_4": "",
+                "responsibilitiesTaken_5": "",
+                "result": ""
+            },
+            "project5": {
+                "subtitle": "Projekt 5",
+                "projectTitle": "",
+                "customerType": "",
+                "duration": "",
+                "responsibilitiesTaken_1": "",
+                "responsibilitiesTaken_2": "",
+                "responsibilitiesTaken_3": "",
+                "responsibilitiesTaken_4": "",
+                "responsibilitiesTaken_5": "",
+                "result": ""
+            }
+        }
+    },
+    "LocaleSwitcher": {
+        "label": "Sprache ändern",
+        "locale": "{locale, select, de {Deutsch} en {English} other {Unbekannt}}"
+    },
+    "Navigation": {
+        "skills": "Skills",
+        "projects": "Projekte",
+        "other": "Talks & Workshops",
+        "funFacts": "Fun Facts"
+    },
+    "Footer": {
+        "credit": "Theodora Milona. Alle Rechte vorbehalten."
+    }
 }

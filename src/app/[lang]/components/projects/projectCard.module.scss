@@ -1,0 +1,33 @@
+@import "@/app/styles/variables.module";
+
+.projectCardGrid {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    grid-column-gap: 4rem;
+
+    @media screen and (max-width: $screen-m) {
+        grid-template-columns: auto;
+    }
+}
+
+.projectCardHeading {
+    font-weight: bolder;
+    letter-spacing: 1.5pt;
+    margin-bottom: 1rem;
+}
+
+.titleBorder {
+    color: $gold;
+    opacity: 0.85;
+}
+
+.projectSeparator {
+    color: $gold;
+    opacity: 0.55;
+}
+
+.projectCardSubtitle {
+    font-style: italic;
+    font-size: 1rem;
+    color: $lightBlue;
+}

@@ -1,3 +1,5 @@
+import ProjectsCard from "@/app/[lang]/components/projects/_projectsCard";
+
 export default function Projects() {
-    return <div>Projects</div>;
+    return <ProjectsCard />;
 }

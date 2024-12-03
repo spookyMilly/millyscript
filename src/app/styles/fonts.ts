@@ -1,4 +1,4 @@
-import { Bodoni_Moda, Playfair_Display } from "next/font/google";
+import { Bodoni_Moda, Noto_Serif, Playfair_Display } from "next/font/google";
 
 // define your variable fonts
 const playfairDisplay = Playfair_Display({
@@ -8,4 +8,6 @@ const playfairDisplay = Playfair_Display({
 });
 const bodoniModa = Bodoni_Moda({ variable: "--font-bodoni-moda", subsets: ["latin"] });
 
-export { playfairDisplay, bodoniModa };
+const notoSerif = Noto_Serif({ variable: "--font-noto-serif", subsets: ["latin"] });
+
+export { playfairDisplay, bodoniModa, notoSerif };

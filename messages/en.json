@@ -1,20 +1,90 @@
 {
-  "intro": {
-    "heading": "Hi, I'm Theo. A creative frontend developer passionate about UX, clean code, and design.",
-    "description": "I've been working as a frontend developer since 2016, focusing on clean frontend architectures, precise testing, and agile collaboration in interdisciplinary, cross-functional teams. <br/><br/>My focus: modernizing processes, developing user-centered web applications, and approaching tasks with structure and a solution-oriented mindset.",
-    "linkToProjects": "<link>Project overview</link>"
-  },
-  "LocaleSwitcher": {
-    "label": "Change language",
-    "locale": "{locale, select, de {Deutsch} en {English} other {Unknown}}"
-  },
-  "Navigation": {
-    "skills": "Skills",
-    "projects": "Projects",
-    "other": "Talks & Workshops",
-    "funFacts": "Fun facts"
-  },
-  "Footer": {
-    "credit": "Theodora Milona. All rights reserved."
-  }
+    "Intro": {
+        "heading": "Hi, I'm Theo. A creative frontend developer passionate about UX, clean code, and design.",
+        "description": "I've been working as a frontend developer since 2016, focusing on clean frontend architectures, precise testing, and agile collaboration in interdisciplinary, cross-functional teams. <br/><br/>My focus: modernizing processes, developing user-centered web applications, and approaching tasks with structure and a solution-oriented mindset.",
+        "linkToProjects": "<link>Project overview</link>"
+    },
+    "Projects": {
+        "heading": "Projects",
+        "description": "A small selection of my favorite projects on which I contributed.",
+        "filter": "Filter by technology:",
+        "technologiesUsed": "Technologies used:",
+        "result": "Result:",
+        "responsibilities": "Responsibilities taken:",
+        "projects": {
+            "project1": {
+                "subtitle": "Project 1",
+                "projectTitle": "Modernization and enhancement of warehouse management for a renowned online retailer",
+                "customerType": "for a europe-wide operating online retailer",
+                "duration": "2 years",
+                "responsibilitiesTaken_1": "Managed project communication in English to ensure seamless international collaboration",
+                "responsibilitiesTaken_2": "Advised and supported external colleagues on modern web technologies",
+                "responsibilitiesTaken_3": "Conducted pair programming and code reviews to share knowledge",
+                "responsibilitiesTaken_4": "Developed browser-based features for barcode scanners to enable efficient data capture",
+                "responsibilitiesTaken_5": "Collaborated with logistics and backend teams to optimize interfaces and processes",
+                "result": "The project successfully digitized the picking process for approximately 25,000 daily item sales, significantly improving accuracy. A key feature was a browser-based solution for barcode scanners, enabling efficient and error-free data capture. Optimized interfaces ensured accessibility for employees with visual impairments or illiteracy, boosting productivity. External staff received training in modern frontend technologies like React, enabling them to independently continue development after handover."
+            },
+            "project2": {
+                "subtitle": "Project 2",
+                "projectTitle": "Development of a new platform for recruitment in the healthcare sector",
+                "customerType": "for a healthcare company",
+                "duration": "1 year, 5 months",
+                "responsibilitiesTaken_1": "Development of a scalable frontend architecture based on modern best practices",
+                "responsibilitiesTaken_2": "Rapid delivery of a functional MVP for early user testing and feedback",
+                "responsibilitiesTaken_3": "Regular collaboration with stakeholders to refine project requirements",
+                "responsibilitiesTaken_4": "Translation of client requirements into clear and actionable user stories",
+                "responsibilitiesTaken_5": "Implementation of real-time monitoring with Sentry to improve system stability and performance",
+                "result": "The platform provides care service providers with an efficient solution for managing orders from hospitals and care facilities. Key features include a flexible employee calendar for scheduling, dynamic forms for structured data entry, and a powerful search function for quick, precise data retrieval. The focus was on high performance and digitalizing existing processes to optimize and accurately model business logic."
+            },
+            "project3": {
+                "subtitle": "Project 3",
+                "projectTitle": "",
+                "customerType": "",
+                "duration": "",
+                "responsibilitiesTaken_1": "",
+                "responsibilitiesTaken_2": "",
+                "responsibilitiesTaken_3": "",
+                "responsibilitiesTaken_4": "",
+                "responsibilitiesTaken_5": "",
+                "result": ""
+            },
+            "project4": {
+                "subtitle": "Project 4",
+                "projectTitle": "",
+                "customerType": "",
+                "duration": "",
+                "responsibilitiesTaken_1": "",
+                "responsibilitiesTaken_2": "",
+                "responsibilitiesTaken_3": "",
+                "responsibilitiesTaken_4": "",
+                "responsibilitiesTaken_5": "",
+                "result": ""
+            },
+            "project5": {
+                "subtitle": "Project 5",
+                "projectTitle": "",
+                "customerType": "",
+                "duration": "",
+                "responsibilitiesTaken_1": "",
+                "responsibilitiesTaken_2": "",
+                "responsibilitiesTaken_3": "",
+                "responsibilitiesTaken_4": "",
+                "responsibilitiesTaken_5": "",
+                "result": ""
+            }
+        }
+    },
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, de {Deutsch} en {English} other {Unknown}}"
+    },
+    "Navigation": {
+        "skills": "Skills",
+        "projects": "Projects",
+        "other": "Talks & Workshops",
+        "funFacts": "Fun facts"
+    },
+    "Footer": {
+        "credit": "Theodora Milona. All rights reserved."
+    }
 }

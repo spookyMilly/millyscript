@@ -1,0 +1,12 @@
+.responsibilityList {
+    ul {
+        list-style-type: none;
+    }
+
+    ul li:before {
+        content: "\2014";
+        position: absolute;
+        margin-left: -20px;
+        color: white;
+    }
+}
