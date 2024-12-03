@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 
 import { BasicLabel } from "@/app/[lang]/components/_common/badge/basicLabel";
-import ResponsibilitiesList from "@/app/[lang]/components/projects/_responsibilitiesList";
+import ResponsibilitiesList from "@/app/[lang]/components/projects/responsibilityList/_responsibilitiesList";
 import { Project } from "@/app/model/project";
 
 import styles from "./projectWithDescription.module.scss";

@@ -1,8 +1,8 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 
-import ProjectWithDescription from "@/app/[lang]/components/projects/_projectWithDescription";
-import { projects } from "@/app/[lang]/components/projects/projectList";
+import ProjectWithDescription from "@/app/[lang]/components/projects/projectWithDescription/_projectWithDescription";
+import { projects } from "@/app/data/projectList";
 
 import styles from "./projectCard.module.scss";
 
