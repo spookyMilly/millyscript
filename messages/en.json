@@ -85,6 +85,24 @@
             }
         }
     },
+    "Skills": {
+        "heading": "Skills",
+        "description": "",
+        "skill_1": "Developing scalable and future-proof frontend architectures",
+        "skill_2": "Creating user journeys, wireframes, prototypes, and MVPs",
+        "skill_3": "Continuous Delivery & Continuous Integration",
+        "skill_4": "Requirement analysis as well as prioritizing, estimating, and writing user stories",
+        "skill_5": "Collaboration in interdisciplinary teams using Scrum",
+        "skill_6": "Conducting target audience analyses and usability testing",
+        "skill_7": "Implementing monitoring solutions in the frontend",
+        "skill_8": "Accessibility optimizations for user interfaces",
+        "skill_9": "SEO optimizations",
+        "skill_10": "Designing and pixel-perfect implementation of mock-ups",
+        "skill_11": "Expertise in state-of-the-art best practices in frontend development",
+        "skill_12": "Implementations of headless CMS",
+        "skill_13": "Clean Code and Clean Architecture",
+        "skill_14": "Unit Tests, E2E testing, Integration Tests"
+    },
     "LocaleSwitcher": {
         "label": "Change language",
         "locale": "{locale, select, de {Deutsch} en {English} other {Unknown}}"

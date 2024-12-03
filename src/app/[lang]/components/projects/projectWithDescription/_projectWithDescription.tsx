@@ -1,3 +1,4 @@
+import React from "react";
 import { useTranslations } from "next-intl";
 
 import { BasicLabel } from "@/app/[lang]/components/_common/badge/_basicLabel";
