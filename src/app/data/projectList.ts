@@ -73,6 +73,23 @@ export const projects: Project[] = [
     },
     {
         id: "project5",
+        technologiesUsed: [
+            "Gatsby",
+            "Adobe Creative Cloud",
+            "Figma",
+            "Netlify",
+            "Netlify CMS",
+            "Styled components",
+            "prettier",
+            "yarn",
+        ],
+    },
+    {
+        id: "project6",
         technologiesUsed: ["Angular", "XHTML"],
+    },
+    {
+        id: "project7",
+        technologiesUsed: ["VueJS", "Jquery", "Keycloak", "Stripe", "Thymeleaf", "Java", "CSS"],
     },
 ];

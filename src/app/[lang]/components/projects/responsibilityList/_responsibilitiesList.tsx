@@ -13,7 +13,6 @@ export default function ResponsibilitiesList({ projectId }: ResponsibilitiesList
         `${projectId}.responsibilitiesTaken_2`,
         `${projectId}.responsibilitiesTaken_3`,
         `${projectId}.responsibilitiesTaken_4`,
-        `${projectId}.responsibilitiesTaken_5`,
     ] as const;
 
     return (

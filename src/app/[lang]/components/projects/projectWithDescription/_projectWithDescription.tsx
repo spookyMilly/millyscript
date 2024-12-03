@@ -17,7 +17,7 @@ export default function ProjectWithDescription({ project }: ProjectCardProps) {
         <div>
             <h2 className={"m-0"}>{t(`projects.${project.id}.projectTitle`)}</h2>
             <p className={styles.subtitle}>{t(`projects.${project.id}.customerType`)}</p>
-            <h3 className={"mb-2 mt-2"}>Technologies Used:</h3>
+            <h3 className={"mb-2 mt-2"}>{t(`technologiesUsed`)}</h3>
             <ul className={`list-unstyled ${styles.easierToRead}`}>
                 {project.technologiesUsed.map((tech, index) => (
                     <li className={styles.technologyTag} key={index}>
@@ -26,11 +26,8 @@ export default function ProjectWithDescription({ project }: ProjectCardProps) {
                 ))}
             </ul>
             <div className={styles.easierToRead}>
-                <span className={styles.miniHeading}>Responsibilities:</span>{" "}
+                <span className={styles.miniHeading}>{t(`responsibilities`)}</span>{" "}
                 <ResponsibilitiesList projectId={project.id} />
-                <p>
-                    <span className={styles.miniHeading}>Result:</span> {t(`projects.${project.id}.result`)}
-                </p>
             </div>
         </div>
     );
