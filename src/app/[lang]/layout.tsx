@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
@@ -10,7 +11,6 @@ import { routing } from "@/i18n/routing";
 
 import "@/app/styles/overrides.scss";
 import styles from "./layout.module.scss";
-import Head from "next/head";
 
 export default async function RootLayout({
     children,
