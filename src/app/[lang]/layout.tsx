@@ -1,5 +1,5 @@
 import React from "react";
-import Head from "next/head";
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
@@ -11,6 +11,11 @@ import { routing } from "@/i18n/routing";
 
 import "@/app/styles/overrides.scss";
 import styles from "./layout.module.scss";
+
+export const metadata: Metadata = {
+    title: "Millyscript",
+    description: "...",
+};
 
 export default async function RootLayout({
     children,
@@ -36,9 +41,6 @@ export default async function RootLayout({
                 } as React.CSSProperties
             }
         >
-            <Head>
-                <title>Millyscript</title>
-            </Head>
             <NextIntlClientProvider locale={lang} messages={messages}>
                 <body>
                     <div className={styles.mainContainer}>
