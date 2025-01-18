@@ -5,6 +5,7 @@ import { Nav, Navbar } from "react-bootstrap";
 import { Github, Linkedin } from "react-bootstrap-icons";
 import { useTranslations } from "next-intl";
 
+import TitleSvg from "@/app/static/icon.svg";
 import { Link } from "@/i18n/routing";
 
 import styles from "./navbar.module.scss";
@@ -14,7 +15,7 @@ export default function NavBar() {
     return (
         <Navbar className={styles.navBar} expand='lg' variant={"dark"}>
             <Navbar.Brand as={Link} href={`/`}>
-                Millyscript
+                <TitleSvg width={50} height={50} /> Millyscript
             </Navbar.Brand>
             <Navbar.Toggle aria-controls='basic-navbar-nav' />
             <Navbar.Collapse id='basic-navbar-nav' className={" justify-content-end"}>
