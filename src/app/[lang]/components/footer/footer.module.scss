@@ -4,15 +4,26 @@
     font-weight: 200;
     position: relative;
     margin-top: -100px;
+    /* hacky: must stay 100px to stick to bottom */
     height: 100px;
     clear: both;
     background-color: transparent;
     padding: 2rem 7rem;
     text-align: left;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 
     @media screen and (max-width: $screen-m) {
         padding: 2rem 4rem;
+    }
+
+    @media screen and (max-width: $screen-xs) {
+        padding: 0.25rem 0.5rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.25rem;
+        flex-wrap: wrap-reverse;
+        flex-direction: row-reverse;
     }
 }

@@ -2,7 +2,8 @@
     "Intro": {
         "heading": "Hi, I'm Theo. A creative frontend developer passionate about UX, clean code, and design.",
         "description": "I've been working as a frontend developer since 2016, focusing on clean frontend architectures, precise testing, and agile collaboration in interdisciplinary, cross-functional teams. <br/><br/>My focus: modernizing processes, developing user-centered web applications, and approaching tasks with structure and a solution-oriented mindset.",
-        "linkToProjects": "<link>Project overview</link>"
+        "linkToProjects": "<link>Project overview</link>",
+        "photoAlt": "A photo of me sitting on a mountain in Norway"
     },
     "Projects": {
         "heading": "Projects",
@@ -126,7 +127,7 @@
     },
     "FunFacts": {
         "heading": "Fun Facts",
-        "funFact_1": "I love animals, especially Djungarian dwarf hamsters.",
+        "funFact_1": "I love animals, especially dwarf hamsters.",
         "funFact_2": "For three months, I went to a japanese middle school in 2009.",
         "funFact_3": "I enjoy practicing yoga since 2013 in my free time.",
         "funFact_4": "I love watching horror movies.",

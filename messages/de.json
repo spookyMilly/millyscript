@@ -2,7 +2,8 @@
     "Intro": {
         "heading": "Hi, ich bin Theo. Kreative Frontend-Entwicklerin verliebt in UX, Clean Code und Design.",
         "description": "Ich arbeite seit 2016 als Frontend-Entwicklerin und stehe für saubere Frontend-Architekturen, präzises Testing und agiles Arbeiten in interdisziplinären, cross-funktionalen Teams. <br/><br/>Mein Fokus: Prozesse modernisieren, nutzerzentrierte Webanwendungen entwickeln und dabei strukturiert und lösungsorientiert arbeiten.",
-        "linkToProjects": "<link>Zur Projektübersicht</link>"
+        "linkToProjects": "<link>Zur Projektübersicht</link>",
+        "photoAlt": "Ein Foto von mir hoch oben in den Bergen in Norwegen"
     },
     "Projects": {
         "heading": "Projekte",

@@ -1,7 +1,13 @@
 @import "../../../styles/variables.module";
 
-.avatar {
+.avatarBig {
     width: 350px;
     height: auto;
     border-radius: 2.5%;
+}
+
+.avatarSmall {
+    border-radius: 50%;
+    max-width: 150px;
+    max-height: 150px;
 }
