@@ -82,6 +82,6 @@ There are some things I would like to improve on my website:
 
 - Use translated title and description tags for each page
 - Create a dark and light theme
-- Improve overall responsiveness 
+- ~~Improve overall responsiveness~~ ✅
 - Re-design with a mock-up and better, consistent design language 
 - Filter by technology functionality on my project page
