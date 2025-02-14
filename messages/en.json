@@ -1,9 +1,13 @@
 {
     "Intro": {
-        "heading": "Hi, I'm Theo. A creative frontend developer passionate about UX, clean code, and design.",
+        "titlePrefix": "Hi, I'm Theo. A creative frontend developer passionate about",
         "description": "I've been working as a frontend developer since 2016, focusing on clean frontend architectures, precise testing, and agile collaboration in interdisciplinary, cross-functional teams. <br/><br/>My focus: modernizing processes, developing user-centered web applications, and approaching tasks with structure and a solution-oriented mindset.",
         "linkToProjects": "<link>Project overview</link>",
-        "photoAlt": "A photo of me sitting on a mountain in Norway"
+        "photoAlt": "A photo of me sitting on a mountain in Norway",
+        "rotatingWord1": "UX",
+        "rotatingWord2": "Team Work",
+        "rotatingWord3": "Clean Code",
+        "rotatingWord4": "Design"
     },
     "Projects": {
         "heading": "Projects",
@@ -106,8 +110,10 @@
     },
     "Other": {
         "heading": "Talks & Workshops",
+        "altText": "Two persons presenting, one of them is me",
         "description": "Sharing knowledge and inspiring others is my passion. If I find enough time, I enjoy giving workshops in small groups or write on topics that spark my curiosity, from cutting-edge technologies to innovative approaches in development and design. Whether it's about building better solutions or fostering collaboration, I'm always eager to connect, exchange ideas, and learn together.",
         "link": "Link to",
+        "linkPending": "Link is in progress ...",
         "workshop_1_title": "Frontend Frameworks: Popularity & Use Cases",
         "workshop_1_description": "Internal 2023 analysis of new and established frameworks and their technical characteristics",
         "workshop_8_title": "Frontend Architecture Design & Introduction to React",
@@ -127,12 +133,12 @@
     },
     "FunFacts": {
         "heading": "Fun Facts",
-        "funFact_1": "I love animals, especially dwarf hamsters.",
-        "funFact_2": "For three months, I went to a japanese middle school in 2009.",
-        "funFact_3": "I enjoy practicing yoga since 2013 in my free time.",
+        "funFact_1": "I loved creating websites in my youth, back then with plain HTML, CSS and PHP.",
+        "funFact_2": "I enjoy practicing yoga and pilates in my free time.",
+        "funFact_3": "I like to paint landscapes with watercolors.",
         "funFact_4": "I love watching horror movies.",
-        "funFact_5": "I like to paint landscapes with watercolors.",
-        "funFact_6": "I was 13 years old when I built my first website."
+        "funFact_5": "When I was 16, I went to a japanese school for 3 months.",
+        "funFact_6": "I love animals, especially dwarf hamsters."
     },
     "LocaleSwitcher": {
         "label": "Change language",

@@ -1,9 +1,13 @@
 {
     "Intro": {
-        "heading": "Hi, ich bin Theo. Kreative Frontend-Entwicklerin verliebt in UX, Clean Code und Design.",
+        "titlePrefix": "Hi, ich bin Theo. Kreative Frontend-Entwicklerin verliebt in",
         "description": "Ich arbeite seit 2016 als Frontend-Entwicklerin und stehe für saubere Frontend-Architekturen, präzises Testing und agiles Arbeiten in interdisziplinären, cross-funktionalen Teams. <br/><br/>Mein Fokus: Prozesse modernisieren, nutzerzentrierte Webanwendungen entwickeln und dabei strukturiert und lösungsorientiert arbeiten.",
         "linkToProjects": "<link>Zur Projektübersicht</link>",
-        "photoAlt": "Ein Foto von mir hoch oben in den Bergen in Norwegen"
+        "photoAlt": "Ein Foto von mir hoch oben in den Bergen in Norwegen",
+        "rotatingWord1": "UX",
+        "rotatingWord2": "Teamwork",
+        "rotatingWord3": "Clean Code",
+        "rotatingWord4": "Design"
     },
     "Projects": {
         "heading": "Projekte",
@@ -106,8 +110,10 @@
     },
     "Other": {
         "heading": "Talks & Workshops",
+        "altText": "Zwei Personen, darunter ich, die einen Vortrag halten",
         "description": "Mein Wissen zu teilen und andere zu inspirieren, ist meine Leidenschaft. Wenn ich Zeit finde, halte ich gerne Workshops in Kleingruppen oder schreibe Beiträge zu Themen, die mich begeistern – von modernsten Technologien bis hin zu innovativen Ansätzen in Entwicklung und Design. Ob es darum geht, bessere Lösungen zu entwickeln oder Zusammenarbeit zu fördern, ich freue mich immer darauf, Ideen auszutauschen, Kontakte zu knüpfen und gemeinsam zu lernen.",
-        "link": "Hier geht es zum",
+        "link": "Link zum",
+        "linkPending": "Link folgt ...",
         "workshop_1_title": "Frontend Frameworks: Beliebtheit & Einsatzzwecke",
         "workshop_1_description": "Interne Analyse von 2023 zu neuen und bewährten Frameworks und deren technischen Eigenschaften.",
         "workshop_8_title": "Frontend-Architekturen & Einführung in React",
@@ -127,12 +133,12 @@
     },
     "FunFacts": {
         "heading": "Fun Facts",
-        "funFact_1": "Ich liebe Tiere, vor allem Dsungarische Zwerghamster.",
-        "funFact_2": "Ich bin 2009 für drei Monate in Osaka, Japan, zur Schule gegangen.",
-        "funFact_3": "Ich mache seit 2013 liebend gerne Yoga in meiner Freizeit.",
+        "funFact_1": "Ich habe bereits in meiner Jugend immer wieder gerne Webseiten in HTML, CSS und PHP umgesetzt.",
+        "funFact_2": "Zum Ausgleich mache ich in meiner Freizeit gerne Sport, am liebsten Yoga, Pilates und Radfahren.",
+        "funFact_3": "Ich male gerne Landschaften mit Aquarellfarben.",
         "funFact_4": "Ich gucke sehr gerne Horrorfilme.",
-        "funFact_5": "Ich male gerne Landschaften mit Aquarell.",
-        "funFact_6": "Ich habe mit 13 Jahren meine erste Webseite erstellt."
+        "funFact_5": "Ich bin mit 16 drei Monate in Japan zur Schule gegangen.",
+        "funFact_6": "Ich liebe Tiere, vor allem Zwerghamster."
     },
     "LocaleSwitcher": {
         "label": "Sprache ändern",

@@ -2,20 +2,17 @@
 
 .type {
     text-transform: uppercase;
-    color: $lightBlue;
+    color: $midBlue;
 }
 
 .heading {
-    color: $gold;
+    color: $cornflowerBlue;
 }
 
 .workshopLink {
-    color: $lightBlue;
-    border-bottom: 1px solid $lightBlue;
     text-decoration: none;
 }
 
 .workshopLink:hover {
-    color: $lightBlue;
     border-bottom: 0;
 }

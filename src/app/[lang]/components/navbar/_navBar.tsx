@@ -13,7 +13,7 @@ import styles from "./navbar.module.scss";
 export default function NavBar() {
     const t = useTranslations("Navigation");
     return (
-        <Navbar className={styles.navBar} expand='lg' variant={"dark"}>
+        <Navbar className={styles.navBar} expand='lg' variant={"light"}>
             <Navbar.Brand as={Link} href={`/`}>
                 <TitleSvg width={50} height={50} /> Millyscript
             </Navbar.Brand>

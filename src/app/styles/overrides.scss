@@ -2,9 +2,9 @@
 @import "variables.module";
 
 /* Bootstrap overrides */
-$primary: white;
-$secondary: $gold;
-$dark: $backgroundTeal;
+$primary: $darkBlue;
+$secondary: $cornflowerBlue;
+$dark: $midBlue;
 $light: $lightBlue;
 
 @import "~bootstrap/scss/bootstrap.scss";
@@ -16,26 +16,41 @@ $light: $lightBlue;
 
 html {
     height: 100%;
-    color: white;
+    color: $darkBlue;
     font-family: var(--font-bodoni-moda), serif;
     scroll-behavior: smooth;
 }
 
 body {
-    color: white;
-    background: linear-gradient($backgroundTeal 100%, transparent 0%) no-repeat;
+    color: $darkBlue;
+    background: linear-gradient($lightBackground 100%, transparent 0%) no-repeat;
     font-family: var(--font-bodoni-moda), serif;
 }
 
 p a {
-    color: $gold;
-    border-bottom: 1px solid $gold;
     text-decoration: none;
-    font-style: italic;
+    background-image: linear-gradient(to right, rgba(85, 140, 230, 1), rgba(85, 140, 230, 1)),
+        linear-gradient(
+            to right,
+            rgba(255, 166, 128, 1),
+            rgba(230, 85, 157, 1),
+            rgba(85, 140, 230, 1),
+            rgba(16, 18, 161, 1)
+        );
+    background-size:
+        100% 3px,
+        0 3px;
+    background-position:
+        100% 100%,
+        0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
 }
 
 p a:hover {
-    border-bottom: 1px solid transparent;
+    background-size:
+        0 3px,
+        100% 3px;
 }
 
 h1,

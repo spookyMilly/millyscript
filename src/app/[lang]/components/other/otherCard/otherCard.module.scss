@@ -17,16 +17,11 @@
 }
 
 .titleBorder {
-    color: $gold;
-    opacity: 0.85;
+    border-top: 3px solid $cornflowerBlue;
+    opacity: 1;
 }
 
 .talkImage {
     max-width: 100%;
     height: auto;
-}
-
-.workshopSeparator {
-    color: $gold;
-    opacity: 0.55;
 }

@@ -11,14 +11,13 @@
 }
 
 .funFactsCardHeading {
-    font-weight: bolder;
     letter-spacing: 1.5pt;
     margin-bottom: 1rem;
 }
 
 .titleBorder {
-    color: $gold;
-    opacity: 0.85;
+    border-top: 3px solid $funFactsViolet;
+    opacity: 1;
 }
 
 .funFactsImg {

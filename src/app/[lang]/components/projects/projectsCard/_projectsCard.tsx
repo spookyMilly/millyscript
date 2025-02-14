@@ -1,4 +1,5 @@
 import React from "react";
+import { Dot } from "react-bootstrap-icons";
 import { useTranslations } from "next-intl";
 
 import ProjectWithDescription from "@/app/[lang]/components/projects/projectWithDescription/_projectWithDescription";
@@ -18,7 +19,8 @@ export default function ProjectsCard() {
                 <div className={"mt-4"}>
                     {projects.map((project) => (
                         <span className={styles.projectLink} key={`link-${project.id}`}>
-                            » <a href={`#project-${project.id}`}>{t(`projects.${project.id}.shortTitle`)}</a>
+                            <Dot className={"mb-1"} />{" "}
+                            <a href={`#project-${project.id}`}>{t(`projects.${project.id}.shortTitle`)}</a>
                             <br />
                         </span>
                     ))}
@@ -28,7 +30,6 @@ export default function ProjectsCard() {
                 {projects.map((project) => (
                     <div className='mb-5' key={project.id} id={`project-${project.id}`}>
                         <ProjectWithDescription project={project} />
-                        <hr className={`${styles.projectSeparator} w-25`} />
                     </div>
                 ))}
             </div>

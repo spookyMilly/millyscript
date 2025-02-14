@@ -1,19 +1,16 @@
 @import "src/app/styles/variables.module";
 
 .subtitle {
-    color: $gold;
-    opacity: 0.75;
-    font-style: italic;
+    color: $cornflowerBlue;
 }
 
 .easierToRead {
     letter-spacing: 0.15pt;
     line-height: 1.7rem;
-    font-family: var(--font-noto-serif);
 }
 
 .miniHeading {
-    color: $lightBlue;
+    opacity: $midBlue;
 }
 
 .technologyTag {

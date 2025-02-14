@@ -12,16 +12,11 @@ export default function OtherCard() {
     return (
         <div className={styles.otherCardGrid}>
             <div>
-                <Image
-                    className={styles.talkImage}
-                    src={talks}
-                    alt='Zwei Personen, darunter ich, die einen Vortrag halten'
-                    priority
-                />
+                <Image className={styles.talkImage} src={talks} alt={t("altText")} priority />
 
                 <h1 className={styles.projectCardHeading}>{t("heading")}</h1>
                 <hr className={`${styles.titleBorder} w-50`} />
-                <small className={styles.projectCardSubtitle}>{t("description")}</small>
+                <p>{t("description")}</p>
             </div>
             <div>
                 <div className={"mt-4"}>

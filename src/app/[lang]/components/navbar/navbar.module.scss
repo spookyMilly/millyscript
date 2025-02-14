@@ -1,11 +1,96 @@
+@import "@/app/styles/variables.module";
+
 .navBar {
     margin-left: 2%;
     margin-right: 2%;
 }
 
 .navLink {
-    color: white;
-    font-weight: 500;
+    color: $darkBlue;
+    text-decoration: none;
+    transition: background-size 400ms;
     margin: 0 1rem;
     padding: 0 !important;
+}
+
+.underlineEffect {
+    background-size:
+        100% 3px,
+        0 3px;
+    background-position:
+        100% 100%,
+        0 100%;
+    background-repeat: no-repeat;
+}
+
+.navLink:nth-child(1) {
+    @extend .underlineEffect;
+    background-image: linear-gradient(to right, rgba(255, 166, 128, 1), rgba(255, 166, 128, 1)),
+        linear-gradient(
+            to right,
+            rgba(255, 166, 128, 1),
+            rgba(230, 85, 157, 1),
+            rgba(85, 140, 230, 1),
+            rgba(31, 19, 97, 1)
+        );
+}
+
+.navLink:nth-child(2) {
+    background-image: linear-gradient(to right, rgba(230, 85, 157, 1), rgba(230, 85, 157, 1)),
+        linear-gradient(
+            to right,
+            rgba(255, 166, 128, 1),
+            rgba(230, 85, 157, 1),
+            rgba(85, 140, 230, 1),
+            rgba(31, 19, 97, 1)
+        );
+    background-size:
+        100% 3px,
+        0 3px;
+    background-position:
+        100% 100%,
+        0 100%;
+    background-repeat: no-repeat;
+}
+
+.navLink:nth-child(3) {
+    background-image: linear-gradient(to right, rgba(85, 140, 230, 1), rgba(85, 140, 230, 1)),
+        linear-gradient(
+            to right,
+            rgba(255, 166, 128, 1),
+            rgba(230, 85, 157, 1),
+            rgba(85, 140, 230, 1),
+            rgba(31, 19, 97, 1)
+        );
+    background-size:
+        100% 3px,
+        0 3px;
+    background-position:
+        100% 100%,
+        0 100%;
+    background-repeat: no-repeat;
+}
+
+.navLink:nth-child(4) {
+    background-image: linear-gradient(to right, rgba(31, 19, 97, 1), rgba(16, 18, 161, 1)),
+        linear-gradient(
+            to right,
+            rgba(255, 166, 128, 1),
+            rgba(230, 85, 157, 1),
+            rgba(85, 140, 230, 1),
+            rgba(31, 19, 97, 1)
+        );
+    background-size:
+        100% 3px,
+        0 3px;
+    background-position:
+        100% 100%,
+        0 100%;
+    background-repeat: no-repeat;
+}
+
+.navLink:hover {
+    background-size:
+        0 3px,
+        100% 3px;
 }

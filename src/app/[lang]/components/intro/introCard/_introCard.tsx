@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
+import RotatingTitle from "@/app/[lang]/components/intro/rotatingTitle/_rotatingTitle";
 import avatar from "@/app/static/intro.jpg";
 import avatar_small from "@/app/static/square.jpg";
 import { Link } from "@/i18n/routing";
@@ -19,7 +20,7 @@ export default function IntroCard() {
                 <Image src={avatar_small} className={styles.avatarSmall} alt={t("photoAlt")} priority />
             </div>
             <div>
-                <h1>{t("heading")}</h1>
+                <RotatingTitle />
                 <p className={"fs-5"} dangerouslySetInnerHTML={{ __html: t("description") }} />
                 <p>
                     {t.rich("linkToProjects", {

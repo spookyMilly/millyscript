@@ -17,35 +17,28 @@
 }
 
 .titleBorder {
-    color: $gold;
-    opacity: 0.85;
-}
-
-.projectSeparator {
-    color: $gold;
-    opacity: 0.55;
+    border-top: 3px solid $projectPink;
+    opacity: 1;
 }
 
 .projectCardSubtitle {
-    font-style: italic;
     font-size: 1rem;
-    color: $lightBlue;
+    color: $midBlue;
 }
 
 .projectLink {
-    color: $lightBlue;
-
     opacity: 0.85;
     font-weight: normal;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    line-height: 2rem;
 
     a {
-        border-bottom: 1px solid $lightBlue;
+        border-bottom: 1px solid $cornflowerBlue;
         text-decoration: none;
     }
-}
 
-.projectLink a:hover {
-    color: white;
-    border-bottom: 1px solid $gold;
+    a:hover {
+        background-color: $sunflowerYellow;
+        border-bottom: 0;
+    }
 }
