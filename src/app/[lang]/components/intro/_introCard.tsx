@@ -13,20 +13,10 @@ export default function IntroCard() {
     return (
         <div className={"d-flex flex-lg-row flex-column gap-lg-4 gap-0 align-items-center"}>
             <div className='d-none d-lg-block'>
-                <Image
-                    className={styles.avatarBig}
-                    src={avatar}
-                    alt='Ein Foto von mir hoch oben in den Bergen in Norwegen'
-                    priority
-                />
+                <Image className={styles.avatarBig} src={avatar} alt={t("photoAlt")} priority />
             </div>
             <div className={"d-block d-lg-none"}>
-                <Image
-                    src={avatar_small}
-                    className={styles.avatarSmall}
-                    alt={"Ein Foto von mir hoch oben in den Bergen in Norwegen"}
-                    priority
-                />
+                <Image src={avatar_small} className={styles.avatarSmall} alt={t("photoAlt")} priority />
             </div>
             <div>
                 <h1>{t("heading")}</h1>
