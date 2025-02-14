@@ -21,6 +21,7 @@
         100% 100%,
         0 100%;
     background-repeat: no-repeat;
+    transition: background-size 400ms;
 }
 
 .navLink:nth-child(1) {
@@ -36,6 +37,7 @@
 }
 
 .navLink:nth-child(2) {
+    @extend .underlineEffect;
     background-image: linear-gradient(to right, rgba(230, 85, 157, 1), rgba(230, 85, 157, 1)),
         linear-gradient(
             to right,
@@ -44,16 +46,10 @@
             rgba(85, 140, 230, 1),
             rgba(31, 19, 97, 1)
         );
-    background-size:
-        100% 3px,
-        0 3px;
-    background-position:
-        100% 100%,
-        0 100%;
-    background-repeat: no-repeat;
 }
 
 .navLink:nth-child(3) {
+    @extend .underlineEffect;
     background-image: linear-gradient(to right, rgba(85, 140, 230, 1), rgba(85, 140, 230, 1)),
         linear-gradient(
             to right,
@@ -62,16 +58,10 @@
             rgba(85, 140, 230, 1),
             rgba(31, 19, 97, 1)
         );
-    background-size:
-        100% 3px,
-        0 3px;
-    background-position:
-        100% 100%,
-        0 100%;
-    background-repeat: no-repeat;
 }
 
 .navLink:nth-child(4) {
+    @extend .underlineEffect;
     background-image: linear-gradient(to right, rgba(31, 19, 97, 1), rgba(16, 18, 161, 1)),
         linear-gradient(
             to right,
@@ -80,13 +70,6 @@
             rgba(85, 140, 230, 1),
             rgba(31, 19, 97, 1)
         );
-    background-size:
-        100% 3px,
-        0 3px;
-    background-position:
-        100% 100%,
-        0 100%;
-    background-repeat: no-repeat;
 }
 
 .navLink:hover {

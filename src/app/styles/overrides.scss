@@ -10,21 +10,20 @@ $light: $lightBlue;
 @import "~bootstrap/scss/bootstrap.scss";
 
 :root {
-    --font-bodoni-moda: var(--font-bodoni-moda);
-    --font-playfair-display: var(--font-playfair-display);
+    --font-mulish: var(--font-mulish);
 }
 
 html {
     height: 100%;
     color: $darkBlue;
-    font-family: var(--font-bodoni-moda), serif;
+    font-family: var(--font-mulish), sans-serif;
     scroll-behavior: smooth;
 }
 
 body {
     color: $darkBlue;
     background: linear-gradient($lightBackground 100%, transparent 0%) no-repeat;
-    font-family: var(--font-bodoni-moda), serif;
+    font-family: var(--font-mulish), sans-serif;
 }
 
 p a {
@@ -45,6 +44,7 @@ p a {
         0 100%;
     background-repeat: no-repeat;
     transition: background-size 400ms;
+    padding-bottom: 0.15rem;
 }
 
 p a:hover {
@@ -56,7 +56,7 @@ p a:hover {
 h1,
 h2,
 h3 {
-    font-family: var(--font-playfair-display), serif;
+    font-family: var(--font-mulish), sans-serif;
     font-weight: 400;
     margin: 2rem 0;
 }

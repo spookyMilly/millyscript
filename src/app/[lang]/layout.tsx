@@ -6,7 +6,7 @@ import { getMessages } from "next-intl/server";
 
 import { Footer } from "@/app/[lang]/components/footer/_footer";
 import NavBar from "@/app/[lang]/components/navbar/_navBar";
-import { bodoniModa, notoSerif, playfairDisplay } from "@/fonts";
+import { mulish } from "@/fonts";
 import { routing } from "@/i18n/routing";
 
 import "@/app/styles/overrides.scss";
@@ -35,9 +35,7 @@ export default async function RootLayout({
             lang={lang}
             style={
                 {
-                    "--font-bodoni-moda": bodoniModa.style.fontFamily,
-                    "--font-playfair-display": playfairDisplay.style.fontFamily,
-                    "--font-noto-serif": notoSerif.style.fontFamily,
+                    "--font-mulish": mulish.style.fontFamily,
                 } as React.CSSProperties
             }
         >

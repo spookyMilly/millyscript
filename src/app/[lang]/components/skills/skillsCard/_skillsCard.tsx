@@ -26,7 +26,7 @@ export default function SkillsCard() {
     return (
         <div className={styles.skillsCardGrid}>
             <div>
-                <h1 className={styles.projectCardHeading}>{t("heading")}</h1>
+                <h1 className={styles.skillsCardHeading}>{t("heading")}</h1>
                 <hr className={`${styles.titleBorder} w-50`} />
                 <small className={styles.projectCardSubtitle}>{t("description")}</small>
             </div>

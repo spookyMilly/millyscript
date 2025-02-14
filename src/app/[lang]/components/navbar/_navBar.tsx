@@ -15,7 +15,7 @@ export default function NavBar() {
     return (
         <Navbar className={styles.navBar} expand='lg' variant={"light"}>
             <Navbar.Brand as={Link} href={`/`}>
-                <TitleSvg width={50} height={50} /> Millyscript
+                <TitleSvg width={50} height={50} /> <strong>Millyscript</strong>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls='basic-navbar-nav' />
             <Navbar.Collapse id='basic-navbar-nav' className={" justify-content-end"}>
