@@ -26,7 +26,11 @@
                 "responsibilitiesTaken_2": "Durchführung zahlreicher Pair-Programming- und Review-Sessions zur aktiven Wissensvermittlung und Förderung der Zusammenarbeit im Team",
                 "responsibilitiesTaken_3": "Entwicklung spezialisierter Features zur Unterstützung von browserbasierten Anwendungen für Barcode-Scanner, um eine effiziente Datenerfassung zu gewährleisten",
                 "responsibilitiesTaken_4": "Enge Zusammenarbeit mit Logistikexperten und Backend-Entwicklern zur Optimierung und Neuentwicklung von Schnittstellen für eine nahtlose Systemintegration und verbesserten Prozessabläufen",
-                "result": "Das Projekt digitalisierte erfolgreich den Picking-Prozess für ca. 25.000 Artikelverkäufe pro Tag und steigerte die Genauigkeit erheblich. Kernstück war eine browserbasierte Lösung für Barcode-Scanner, die effiziente und fehlerfreie Datenerfassung ermöglichte. Optimierte Benutzeroberflächen sorgten für barrierefreie Nutzung, auch für Mitarbeitende mit Sehschwäche oder Analphabetismus, was die Produktivität deutlich erhöhte. Zudem wurden externe Mitarbeitende in modernen Frontend-Technologien wie React geschult, sodass sie das Projekt nach Übergabe selbstständig weiterentwickeln konnten."
+                "status": "live",
+                "funFacts_1": "Legacy-Abbau",
+                "funFacts_2": "Automatisiertes Erstellen von Versandetiketten",
+                "funFacts_3": "Fehlerraten bei 25.000 Artikelverköufen/Tag minimiert",
+                "funFacts_4": "Verbesserte Accessibility"
             },
             "project2": {
                 "shortTitle": "Neuentwicklung einer Personalvermittlungsplattform",
@@ -36,7 +40,12 @@
                 "responsibilitiesTaken_1": "Entwicklung einer skalierbaren Frontend-Architektur basierend auf modernen Best Practices",
                 "responsibilitiesTaken_2": "Schnelle Bereitstellung einer minimal funktionsfähigen Plattform zur frühzeitigen Einbindung der Endnutzer",
                 "responsibilitiesTaken_3": "Regelmäßige Abstimmung mit Stakeholdern zur Anpassung der Projektanforderungen",
-                "responsibilitiesTaken_4": "Implementierung von Monitoring-Lösungen mit Sentry zur Optimierung der Systemstabilität"
+                "responsibilitiesTaken_4": "Implementierung von Monitoring-Lösungen mit Sentry zur Optimierung der Systemstabilität",
+                "status": "live",
+                "funFacts_1": "Minimierte Fehlerraten dank Live-Monitoring",
+                "funFacts_2": "Komplexe Prozesse in DB & UI vereinfacht",
+                "funFacts_3": "State-Management im FE",
+                "funFacts_4": "Starker Anstieg der Conversion-Rate"
             },
             "project3": {
                 "shortTitle": "Hochperformanter Fashion-Onlineshop",
@@ -46,7 +55,12 @@
                 "responsibilitiesTaken_1": "Einsatz eines Static-Site-Generators  mit SEO-Optimierungen zur Schaffung einer leistungsstarken und schnellen Onlineshop-Plattform",
                 "responsibilitiesTaken_2": "Implementierung eines leicht bedienbaren Content-Management-Systems zur flexiblen Verwaltung und Anpassung von Modulen im Onlineshop",
                 "responsibilitiesTaken_3": "Sicherstellung einer reibungslosen Integration und Kommunikation zwischen dem Shopify-System und der Web-Frontend-Lösung in Gatsby mittels GraphQL und Netlify",
-                "responsibilitiesTaken_4": "Aufbau und Pflege einer stabilen Continuous Integration / Continuous Deployment zur Unterstützung regelmäßiger und verlässlicher Shop-Updates"
+                "responsibilitiesTaken_4": "Aufbau und Pflege einer stabilen Continuous Integration / Continuous Deployment zur Unterstützung regelmäßiger und verlässlicher Shop-Updates",
+                "status": "live",
+                "funFacts_1": "High Performance dank SSG",
+                "funFacts_2": "Konfigurierbares CMS",
+                "funFacts_3": "Anbindung von Shopify & Xentral",
+                "funFacts_4": "CI/CD ermöglicht schnelle Shop-Updates"
             },
             "project4": {
                 "shortTitle": "Nutzeroberfläche für Wissenschaftler und KI",
@@ -56,7 +70,12 @@
                 "responsibilitiesTaken_1": "Neuimplementierung einer Web-Anwendung in React mit Vite angepasst auf die Bedürfnisse von Wissenschaftlern zum Trainieren von Modellen",
                 "responsibilitiesTaken_2": "Aktives Mitwirken in einem agilen, crossfunktionalen Team mit zweiwöchigen Sprint-Zyklen zur Förderung von Transparenz, Flexibilität und Teameffizienz",
                 "responsibilitiesTaken_3": "Konzeption, Entwicklung und Testing von Komponenten in TypeScript, Vitest und Vite",
-                "responsibilitiesTaken_4": "Regelmäßige Planung und Durchführung von Sprint-Reviews zur Präsentation des Projektfortschritts und zur Abstimmung mit allen relevanten Stakeholdern"
+                "responsibilitiesTaken_4": "Regelmäßige Planung und Durchführung von Sprint-Reviews zur Präsentation des Projektfortschritts und zur Abstimmung mit allen relevanten Stakeholdern",
+                "status": "abgeschlossen",
+                "funFacts_1": "Nutzerrollen-Management",
+                "funFacts_2": "",
+                "funFacts_3": "",
+                "funFacts_4": ""
             },
             "project5": {
                 "shortTitle": "Neugestaltung und -entwicklung einer Webseite",
@@ -66,7 +85,12 @@
                 "responsibilitiesTaken_1": "Verantwortlich für die gesamte Design- und Frontend-Umsetzung und Koordination sämtlicher relevanten Schritte, um eine benutzerfreundliche und leistungsstarke Weblösung zu gewährleisten",
                 "responsibilitiesTaken_2": "Gestaltung und Umsetzung von Designs und Mock-ups, die auf die Anforderungen der Stakeholder und die Bedürfnisse der Zielgruppen abgestimmt waren",
                 "responsibilitiesTaken_3": "Erfolgreiche Durchführung von SEO-Maßnahmen und Google Ads-Kampagnen zur Steigerung der Sichtbarkeit und Lead-Generierung",
-                "responsibilitiesTaken_4": "Entwicklung einer performanten, kosteneffizienten und wartungsfreundlichen Weblösung, die den langfristigen Anforderungen des Unternehmens gerecht wird"
+                "responsibilitiesTaken_4": "Entwicklung einer performanten, kosteneffizienten und wartungsfreundlichen Weblösung, die den langfristigen Anforderungen des Unternehmens gerecht wird",
+                "status": "abgeschlossen",
+                "funFacts_1": "Usability-Tests",
+                "funFacts_2": "Google Ads",
+                "funFacts_3": "UX-Recherchen",
+                "funFacts_4": ""
             },
             "project6": {
                 "shortTitle": "Browserbasierter Ebook-Reader",
@@ -76,7 +100,12 @@
                 "responsibilitiesTaken_1": "Feature-Entwicklung im Frontend unter Verwendung von Clean Code und Clean Architecture-Prinzipien mit Angular",
                 "responsibilitiesTaken_2": "Durchführung von Deployment und Release-Management mit Continuous Integration und Continuous Delivery (CI/CD)",
                 "responsibilitiesTaken_3": "UX/UI-Design der Webanwendung und der Landing Page",
-                "responsibilitiesTaken_4": "Konzeption und Durchführung von User-Experience- und Usability-Tests"
+                "responsibilitiesTaken_4": "Konzeption und Durchführung von User-Experience- und Usability-Tests",
+                "status": "abgeschlossen",
+                "funFacts_1": "UX-Optimierungen",
+                "funFacts_2": "Zielgruppenanalysen",
+                "funFacts_3": "Clean Code",
+                "funFacts_4": ""
             },
             "project7": {
                 "shortTitle": "Online-Service zur Sicherung von Fotografien",
@@ -86,7 +115,57 @@
                 "responsibilitiesTaken_1": "Anforderungsanalyse und Erstellung von User Stories",
                 "responsibilitiesTaken_2": "Feature-Entwicklung unter Verwendung von Clean Code und Clean Architecture-Prinzipien mit VueJS",
                 "responsibilitiesTaken_3": "Aktives Mitwirken in einem agilen, crossfunktionalen Team mit zweiwöchigen Sprint-Zyklen zur Förderung von Transparenz, Flexibilität und Teameffizienz",
-                "responsibilitiesTaken_4": "Konzeption und Durchführung von User-Experience- und Usability-Tests"
+                "responsibilitiesTaken_4": "Konzeption und Durchführung von User-Experience- und Usability-Tests",
+                "status": "abgeschlossen",
+                "funFacts_1": "",
+                "funFacts_2": "",
+                "funFacts_3": "",
+                "funFacts_4": ""
+            },
+            "project8": {
+                "shortTitle": "Re-Design des Ankaufs-Prozesses",
+                "projectTitle": "Re-Design des Ankaufs-Prozesses",
+                "role": "UI-Designer, Consultant",
+                "customerType": "für einen Onlinehändler im Outdoor-Bereich für Second-Hand-Kleidung",
+                "responsibilitiesTaken_1": "Nutzer können ihre gebrauchten Artikel an den Händler verkaufen; dafür wurde die UI optimiert",
+                "responsibilitiesTaken_2": "Beibehaltung der Markensprache, aber im neuen Look für verbesserte Usability",
+                "responsibilitiesTaken_3": "Mobile-Optimierung",
+                "responsibilitiesTaken_4": "Pair-Programming mit dem Umsetzer, um auch bei der Entwicklung zu unterstützen",
+                "status": "abgeschlossen",
+                "funFacts_1": "",
+                "funFacts_2": "",
+                "funFacts_3": "",
+                "funFacts_4": ""
+            },
+            "project9": {
+                "shortTitle": "Neuentwicklung eines Onlineblogs",
+                "projectTitle": "Neuentwicklung eines Onlineblogs mit Headless CMS",
+                "role": "Frontend-Entwicklerin",
+                "customerType": "für ein Unternehmen im Projektmanagement",
+                "responsibilitiesTaken_1": "Auf spezielle Wünsche zugeschnittener Blog mittels Static Site Generator für hervorragende Performance",
+                "responsibilitiesTaken_2": "Unterstützung und Beratung bei Design & SEO",
+                "responsibilitiesTaken_3": "Bearbeitbare Module zum eigenständigem Bearbeiten des Kunden",
+                "responsibilitiesTaken_4": "",
+                "status": "abgeschlossen",
+                "funFacts_1": "Headless CMS",
+                "funFacts_2": "SSG",
+                "funFacts_3": "",
+                "funFacts_4": ""
+            },
+            "project10": {
+                "shortTitle": "Erstellen von Landing Pages",
+                "projectTitle": "Erstellen von performanten Landing Pages zur Kundenakquise",
+                "role": "Frontend-Entwicklerin",
+                "customerType": "für einen IT-Dienstleister",
+                "responsibilitiesTaken_1": "in enger Zusammenarbeit mit Marketing & Design wurden Landing Pages zur Kundengewinnung entworfen und umgesetzt",
+                "responsibilitiesTaken_2": "",
+                "responsibilitiesTaken_3": "Schnelle Reaktion auf Marktveränderungen und Stakeholder-Anforderungen durch automatisierte Deployments",
+                "responsibilitiesTaken_4": "",
+                "status": "abgeschlossen",
+                "funFacts_1": "Google Ads",
+                "funFacts_2": "eTracker",
+                "funFacts_3": "",
+                "funFacts_4": ""
             }
         }
     },

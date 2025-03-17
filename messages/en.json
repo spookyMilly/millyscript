@@ -26,7 +26,11 @@
                 "responsibilitiesTaken_2": "Conducted pair programming and code reviews to share knowledge",
                 "responsibilitiesTaken_3": "Developed browser-based features for barcode scanners to enable efficient data capture",
                 "responsibilitiesTaken_4": "Collaborated with logistics and backend teams to optimize interfaces and processes",
-                "result": "The project successfully digitized the picking process for approximately 25,000 daily item sales, significantly improving accuracy. A key feature was a browser-based solution for barcode scanners, enabling efficient and error-free data capture. Optimized interfaces ensured accessibility for employees with visual impairments or illiteracy, boosting productivity. External staff received training in modern frontend technologies like React, enabling them to independently continue development after handover."
+                "status": "live",
+                "funFacts_1": "Legacy System Decommissioning",
+                "funFacts_2": "Automated Creation of Shipping Labels",
+                "funFacts_3": "Error Rate Reduced for 25,000 Product Sales/Day",
+                "funFacts_4": "Improved Accessibility"
             },
             "project2": {
                 "shortTitle": "Recruitment platform with modern tech-stack",
@@ -36,7 +40,12 @@
                 "responsibilitiesTaken_1": "Development of a scalable frontend architecture based on modern best practices",
                 "responsibilitiesTaken_2": "Rapid delivery of a functional MVP for early user testing and feedback",
                 "responsibilitiesTaken_3": "Regular collaboration with stakeholders to refine project requirements",
-                "responsibilitiesTaken_4": "Implementation of real-time monitoring with Sentry to improve system stability and performance"
+                "responsibilitiesTaken_4": "Implementation of real-time monitoring with Sentry to improve system stability and performance",
+                "status": "live",
+                "funFacts_1": "Minimized error rates due to monitoring",
+                "funFacts_2": "Translated complex processes into UI & database models",
+                "funFacts_3": "State-Management",
+                "funFacts_4": "Conversion rates were strongly increased"
             },
             "project3": {
                 "shortTitle": "Highly performant online shop",
@@ -46,7 +55,12 @@
                 "responsibilitiesTaken_1": "Utilized a static site generator with SEO optimizations to create a high-performance and fast online shop platform",
                 "responsibilitiesTaken_2": "Implemented an easy-to-use content management system for flexible management and customization of shop modules",
                 "responsibilitiesTaken_3": "Ensured seamless integration and communication between the Shopify system and the web frontend solution in Gatsby using GraphQL and Netlify",
-                "responsibilitiesTaken_4": "Established and maintained a robust continuous integration/continuous deployment pipeline to support regular and reliable shop updates"
+                "responsibilitiesTaken_4": "Established and maintained a robust continuous integration/continuous deployment pipeline to support regular and reliable shop updates",
+                "status": "live",
+                "funFacts_1": "High Performance thanks to SSG",
+                "funFacts_2": "Configurable CMS",
+                "funFacts_3": "Connected to Shopify & Xentral",
+                "funFacts_4": "CI/CD enable fast shop updates"
             },
             "project4": {
                 "shortTitle": "User interface for scientists",
@@ -56,7 +70,12 @@
                 "responsibilitiesTaken_1": "Redesigned and implemented a web application in React with Vite, tailored for scientists to train models",
                 "responsibilitiesTaken_2": "Actively participated in an agile, cross-functional team with bi-weekly sprints to enhance transparency, flexibility, and team efficiency",
                 "responsibilitiesTaken_3": "Designed, developed, and tested components using TypeScript, Vitest, and Vite",
-                "responsibilitiesTaken_4": "Regularly planned and conducted sprint reviews to present progress and align with stakeholders"
+                "responsibilitiesTaken_4": "Regularly planned and conducted sprint reviews to present progress and align with stakeholders",
+                "status": "done",
+                "funFacts_1": "User management",
+                "funFacts_2": "",
+                "funFacts_3": "",
+                "funFacts_4": ""
             },
             "project5": {
                 "shortTitle": "Webapp relaunch and redesign",
@@ -66,7 +85,12 @@
                 "responsibilitiesTaken_1": "Oversaw design and frontend implementation to deliver a user-friendly, high-performance web solution",
                 "responsibilitiesTaken_2": "Created designs and mock-ups tailored to stakeholder requirements and target audience needs",
                 "responsibilitiesTaken_3": "Executed SEO strategies and Google Ads campaigns to improve visibility and lead generation",
-                "responsibilitiesTaken_4": "Developed a performant, cost-efficient, and maintainable web solution to meet long-term business needs"
+                "responsibilitiesTaken_4": "Developed a performant, cost-efficient, and maintainable web solution to meet long-term business needs",
+                "status": "done",
+                "funFacts_1": "Usability tests",
+                "funFacts_2": "Google Ads",
+                "funFacts_3": "UX Research",
+                "funFacts_4": ""
             },
             "project6": {
                 "shortTitle": "Browser-based ebook reader",
@@ -76,7 +100,12 @@
                 "responsibilitiesTaken_1": "Developed frontend features using Clean Code and Clean Architecture principles with Angular",
                 "responsibilitiesTaken_2": "Managed deployments and release cycles with Continuous Integration and Continuous Delivery (CI/CD)",
                 "responsibilitiesTaken_3": "Designed the UX/UI for the web application and landing page",
-                "responsibilitiesTaken_4": "Planned and conducted user experience and usability tests"
+                "responsibilitiesTaken_4": "Planned and conducted user experience and usability tests",
+                "status": "done",
+                "funFacts_1": "Optimized UX",
+                "funFacts_2": "Analyzed target groups",
+                "funFacts_3": "Clean Code",
+                "funFacts_4": ""
             },
             "project7": {
                 "shortTitle": "Online service to secure photographs",
@@ -86,7 +115,57 @@
                 "responsibilitiesTaken_1": "Performed requirements analysis and created user stories",
                 "responsibilitiesTaken_2": "Developed features using Clean Code and Clean Architecture principles with VueJS",
                 "responsibilitiesTaken_3": "Actively participated in an agile, cross-functional team with bi-weekly sprints to enhance transparency, flexibility, and team efficiency",
-                "responsibilitiesTaken_4": "Planned and conducted user experience and usability tests"
+                "responsibilitiesTaken_4": "Planned and conducted user experience and usability tests",
+                "status": "done",
+                "funFacts_1": "",
+                "funFacts_2": "",
+                "funFacts_3": "",
+                "funFacts_4": ""
+            },
+            "project8": {
+                "shortTitle": "Redesign of the acquisition process",
+                "projectTitle": "Redesign of the acquisition process",
+                "role": "UI Designer, Consultant",
+                "customerType": "for an online second-hand retailer in the outdoor sector",
+                "responsibilitiesTaken_1": "Users are able to sell their used outdoor clothes to the retailer with a user-friendly interface",
+                "responsibilitiesTaken_2": "Maintaining the brand language but with a new look for improved usability",
+                "responsibilitiesTaken_3": "Mobile optimization",
+                "responsibilitiesTaken_4": "Pair programming with the developer to support implementation",
+                "status": "done",
+                "funFacts_1": "",
+                "funFacts_2": "",
+                "funFacts_3": "",
+                "funFacts_4": ""
+            },
+            "project9": {
+                "shortTitle": "Development of a management blog",
+                "projectTitle": "Development of next-gen project management blog with headless CMS",
+                "role": "Frontend Developer",
+                "customerType": "for a project management company",
+                "responsibilitiesTaken_1": "Custom blog using a static site generator for excellent performance",
+                "responsibilitiesTaken_2": "Support and consulting for design & SEO",
+                "responsibilitiesTaken_3": "Editable modules for independent content management by the client",
+                "responsibilitiesTaken_4": "",
+                "status": "done",
+                "funFacts_1": "Headless CMS",
+                "funFacts_2": "SSG",
+                "funFacts_3": "",
+                "funFacts_4": ""
+            },
+            "project10": {
+                "shortTitle": "Creating Landing Pages",
+                "projectTitle": "Creating high-performance landing pages for customer acquisition",
+                "role": "Frontend Developer",
+                "customerType": "for an IT service provider",
+                "responsibilitiesTaken_1": "Landing pages for customer acquisition were designed and implemented in close collaboration with marketing & design",
+                "responsibilitiesTaken_2": "",
+                "responsibilitiesTaken_3": "Quick response to market changes and stakeholder requirements through automated deployments",
+                "responsibilitiesTaken_4": "",
+                "status": "done",
+                "funFacts_1": "Google Ads",
+                "funFacts_2": "eTracker",
+                "funFacts_3": "",
+                "funFacts_4": ""
             }
         }
     },

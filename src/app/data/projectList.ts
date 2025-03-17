@@ -44,7 +44,7 @@ export const projects: Project[] = [
             "Gatsby",
             "GraphQL",
             "Netlify",
-            "Netlify CMS",
+            "Decap CMS",
             "Shopify",
             "Markdown",
             "Styled components",
@@ -78,7 +78,7 @@ export const projects: Project[] = [
             "Adobe Creative Cloud",
             "Figma",
             "Netlify",
-            "Netlify CMS",
+            "Decap CMS",
             "Styled components",
             "prettier",
             "yarn",
@@ -91,5 +91,17 @@ export const projects: Project[] = [
     {
         id: "project7",
         technologiesUsed: ["VueJS", "Jquery", "Keycloak", "Stripe", "Thymeleaf", "Java", "CSS"],
+    },
+    {
+        id: "project8",
+        technologiesUsed: ["VueJS", "Adobe XD", "Figma"],
+    },
+    {
+        id: "project9",
+        technologiesUsed: ["Gatsby", "Decap CMS", "Netlify"],
+    },
+    {
+        id: "project10",
+        technologiesUsed: ["Gatsby", "yarn", "Netlify", "CI/CD", "Google Analytics", "eTracker", "Mailchimp"],
     },
 ];

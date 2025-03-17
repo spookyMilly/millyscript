@@ -1,0 +1,41 @@
+@import "@/app/styles/variables.module";
+
+.emphasizedFunFact {
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 900;
+    padding: 0.5rem;
+    margin: 0.25rem 0.5rem;
+    display: inline-block;
+    transition:
+        background-position 0.5s ease-in-out,
+        filter 0.3s ease-in-out;
+    background-size: 200% 200%;
+    background-position: 0 50%;
+}
+
+.colorVariation1 {
+    @extend .emphasizedFunFact;
+    background: linear-gradient(135deg, $pastelOrange, $pastelViolet);
+}
+
+.colorVariation2 {
+    @extend .emphasizedFunFact;
+    background: linear-gradient(135deg, $pastelViolet, $pastelPink);
+}
+
+.colorVariation3 {
+    @extend .emphasizedFunFact;
+    background: linear-gradient(135deg, $pastelOrange, $pastelBlue);
+}
+
+.colorVariation4 {
+    @extend .emphasizedFunFact;
+    background: linear-gradient(135deg, $pastelPink, $pastelBlue);
+}
+
+.emphasizedFunFact:hover {
+    background-position: 100% 50%;
+    filter: brightness(1.1);
+}

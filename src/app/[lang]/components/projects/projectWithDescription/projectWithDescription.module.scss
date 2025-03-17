@@ -6,11 +6,15 @@
 
 .easierToRead {
     letter-spacing: 0.15pt;
-    line-height: 1.7rem;
+    line-height: 1.5rem;
+
+    @media screen and (max-width: $screen-m) {
+        line-height: 1.25rem;
+    }
 }
 
-.miniHeading {
-    opacity: $midBlue;
+.reducedHierarchy {
+    opacity: 0.8;
 }
 
 .technologyTag {
