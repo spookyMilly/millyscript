@@ -75,7 +75,7 @@ I recommend [this guide](https://www.freecodecamp.org/news/how-to-write-better-g
 ### Fonts
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and
-load the Google font "Playfair Display" as well as "Bodoni Moda" as variable fonts.
+load the Google font "Mulish" as a variable font.
 
 ### To dos
 There are some things I would like to improve on my website:
@@ -83,5 +83,5 @@ There are some things I would like to improve on my website:
 - Use translated title and description tags for each page
 - Create a dark and light theme
 - ~~Improve overall responsiveness~~ ✅
-- Re-design with a mock-up and better, consistent design language 
+- ~~Re-design with a mock-up and better, consistent design language~~ ✅
 - Filter by technology functionality on my project page
