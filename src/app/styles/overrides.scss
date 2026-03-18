@@ -2,12 +2,12 @@
 @use "variables.module" as *;
 
 /* Bootstrap overrides */
-$primary: $darkBlue;
-$secondary: $cornflowerBlue;
-$dark: $midBlue;
-$light: $lightBlue;
-
-@use "~bootstrap/scss/bootstrap.scss";
+@use "bootstrap/scss/bootstrap" with (
+  $primary: $darkBlue,
+  $secondary: $cornflowerBlue,
+  $dark: $midBlue,
+  $light: $lightBlue
+);
 
 :root {
   --font-mulish: var(--font-mulish);
@@ -27,6 +27,7 @@ body {
 }
 
 p a {
+  color: $darkBlue;
   text-decoration: none;
   background-image:
     linear-gradient(to right, rgba(85, 140, 230, 1), rgba(85, 140, 230, 1)),
