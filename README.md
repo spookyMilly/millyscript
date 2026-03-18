@@ -2,8 +2,8 @@
 
 ## Introduction
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-I decided to use Next version `14.2.18` for a more stable experience as there still seem to be some minor issues with next version 15.
-It is best used with node version `20.9.0`. You can use _nvm_ (`.nvmrc`) as your version manager.
+I decided to use Next version `15.5.13` for a more stable & safe experience as some safety issues have been found in the older versions.
+It is best used with node version `24.13.0`. You can use _nvm_ (`.nvmrc`) as your version manager.
 
 ## Deployed on Netlify
 
@@ -84,4 +84,4 @@ There are some things I would like to improve on my website:
 - Create a dark and light theme
 - ~~Improve overall responsiveness~~ ✅
 - ~~Re-design with a mock-up and better, consistent design language~~ ✅
-- Filter by technology functionality on my project page
+- Filter by role (design and frontend) on my project page
