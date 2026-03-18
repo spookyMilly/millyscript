@@ -1,0 +1,54 @@
+"use client";
+
+import React from "react";
+import { Nav, Navbar } from "react-bootstrap";
+import { Github, Linkedin } from "react-bootstrap-icons";
+import { useTranslations } from "next-intl";
+
+import styles from "@/app/[locale]/components/navbar/navbar.module.scss";
+import TitleSvg from "@/app/static/icon.svg";
+import { Link } from "@/i18n/navigation";
+
+export default function NavBar() {
+  const t = useTranslations("Navigation");
+  return (
+    <Navbar className={styles.navBar} expand='lg' variant={"light"}>
+      <Navbar.Brand as={Link} href={"/"}>
+        <TitleSvg width={50} height={50} /> <strong>Millyscript</strong>
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls='basic-navbar-nav' />
+      <Navbar.Collapse id='basic-navbar-nav' className={" justify-content-end"}>
+        <Nav className='d-flex align-items-lg-center align-items-end gap-2 gap-lg-0'>
+          <Nav.Link as={Link} href={"/skills"} className={styles.navLink}>
+            {t("skills")}
+          </Nav.Link>
+          <Nav.Link as={Link} href={"/projects"} className={styles.navLink}>
+            {t("projects")}
+          </Nav.Link>
+          <Nav.Link as={Link} href={"/other"} className={styles.navLink}>
+            {t("other")}
+          </Nav.Link>
+          <Nav.Link as={Link} href={"/fun-facts"} className={styles.navLink}>
+            {t("funFacts")}
+          </Nav.Link>
+          <Nav.Link
+            className={styles.navLink}
+            href={"https://github.com/spookyMilly"}
+            rel={"noopener noreferrer"}
+            target={"_blank"}
+          >
+            <Github />
+          </Nav.Link>
+          <Nav.Link
+            className={styles.navLink}
+            href={"https://www.linkedin.com/in/theodora-milona-b593761a8/"}
+            rel={"noopener noreferrer"}
+            target={"_blank"}
+          >
+            <Linkedin />
+          </Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
+  );
+}

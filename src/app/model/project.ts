@@ -1,4 +1,4 @@
 export interface Project {
-    id: string;
-    technologiesUsed: string[];
+  id: string;
+  technologiesUsed: string[];
 }

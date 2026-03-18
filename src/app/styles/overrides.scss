@@ -1,62 +1,64 @@
 /* My own colors */
-@import "variables.module";
+@use "variables.module" as *;
 
 /* Bootstrap overrides */
-$primary: $darkBlue;
-$secondary: $cornflowerBlue;
-$dark: $midBlue;
-$light: $lightBlue;
-
-@import "~bootstrap/scss/bootstrap.scss";
+@use "bootstrap/scss/bootstrap" with (
+  $primary: $darkBlue,
+  $secondary: $cornflowerBlue,
+  $dark: $midBlue,
+  $light: $lightBlue
+);
 
 :root {
-    --font-mulish: var(--font-mulish);
+  --font-mulish: var(--font-mulish);
 }
 
 html {
-    height: 100%;
-    color: $darkBlue;
-    font-family: var(--font-mulish), sans-serif;
-    scroll-behavior: smooth;
+  height: 100%;
+  color: $darkBlue;
+  font-family: var(--font-mulish), sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
-    color: $darkBlue;
-    background: linear-gradient($lightBackground 100%, transparent 0%) no-repeat;
-    font-family: var(--font-mulish), sans-serif;
+  color: $darkBlue;
+  background: linear-gradient($lightBackground 100%, transparent 0%) no-repeat;
+  font-family: var(--font-mulish), sans-serif;
 }
 
 p a {
-    text-decoration: none;
-    background-image: linear-gradient(to right, rgba(85, 140, 230, 1), rgba(85, 140, 230, 1)),
-        linear-gradient(
-            to right,
-            rgba(255, 166, 128, 1),
-            rgba(230, 85, 157, 1),
-            rgba(85, 140, 230, 1),
-            rgba(16, 18, 161, 1)
-        );
-    background-size:
-        100% 3px,
-        0 3px;
-    background-position:
-        100% 100%,
-        0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 400ms;
-    padding-bottom: 0.15rem;
+  color: $darkBlue;
+  text-decoration: none;
+  background-image:
+    linear-gradient(to right, rgba(85, 140, 230, 1), rgba(85, 140, 230, 1)),
+    linear-gradient(
+      to right,
+      rgba(255, 166, 128, 1),
+      rgba(230, 85, 157, 1),
+      rgba(85, 140, 230, 1),
+      rgba(16, 18, 161, 1)
+    );
+  background-size:
+    100% 3px,
+    0 3px;
+  background-position:
+    100% 100%,
+    0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  padding-bottom: 0.15rem;
 }
 
 p a:hover {
-    background-size:
-        0 3px,
-        100% 3px;
+  background-size:
+    0 3px,
+    100% 3px;
 }
 
 h1,
 h2,
 h3 {
-    font-family: var(--font-mulish), sans-serif;
-    font-weight: 400;
-    margin: 2rem 0;
+  font-family: var(--font-mulish), sans-serif;
+  font-weight: 400;
+  margin: 2rem 0;
 }

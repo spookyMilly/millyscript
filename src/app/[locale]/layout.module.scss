@@ -1,0 +1,24 @@
+@use "@/app/styles/variables.module" as *;
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $lightBackground;
+}
+
+.contentContainer {
+  margin-top: 1rem;
+  flex-grow: 1;
+  overflow: hidden;
+  padding: 2rem 7rem 100px 7rem;
+
+  /* hacky: must be same height as the footer (= 100px) */
+  @media screen and (max-width: $screen-m) {
+    padding: 2rem 2rem 100px 2rem;
+  }
+
+  @media screen and (max-width: $screen-xs) {
+    padding: 0.5rem 2rem 100px 2rem;
+  }
+}

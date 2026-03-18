@@ -1,0 +1,14 @@
+@use "@/app/styles/variables.module" as *;
+
+.responsibilityList {
+  ul {
+    list-style-type: none;
+  }
+
+  ul li:before {
+    content: "\2022";
+    position: absolute;
+    margin-left: -23px;
+    color: $darkBlue;
+  }
+}
