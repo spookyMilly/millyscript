@@ -3,21 +3,7 @@ import { Project } from "@/app/model/project";
 export const projects: Project[] = [
   {
     id: "project1",
-    technologiesUsed: [
-      "React",
-      "TypeScript",
-      "Bootstrap",
-      "SCSS",
-      "React Testing Library",
-      "Jest",
-      "OpenAPI",
-      "Swagger",
-      "Storybook",
-      "npm",
-      "prettier",
-      "axios",
-      "i18n",
-    ],
+    technologiesUsed: ["Figma", "TypeScript", "Next.js", "React Testing Library", "Jest", "tailwind", "shadcn"],
   },
   {
     id: "project2",
@@ -41,6 +27,24 @@ export const projects: Project[] = [
   {
     id: "project3",
     technologiesUsed: [
+      "React",
+      "TypeScript",
+      "Bootstrap",
+      "SCSS",
+      "React Testing Library",
+      "Jest",
+      "OpenAPI",
+      "Swagger",
+      "Storybook",
+      "npm",
+      "prettier",
+      "axios",
+      "i18n",
+    ],
+  },
+  {
+    id: "project4",
+    technologiesUsed: [
       "Gatsby",
       "GraphQL",
       "Netlify",
@@ -55,7 +59,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "project4",
+    id: "project5",
     technologiesUsed: [
       "React",
       "Vite",
@@ -72,7 +76,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "project5",
+    id: "project6",
     technologiesUsed: [
       "Gatsby",
       "Adobe Creative Cloud",
@@ -85,23 +89,23 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "project6",
+    id: "project7",
     technologiesUsed: ["Angular", "XHTML"],
   },
   {
-    id: "project7",
+    id: "project8",
     technologiesUsed: ["VueJS", "Jquery", "Keycloak", "Stripe", "Thymeleaf", "Java", "CSS"],
   },
   {
-    id: "project8",
+    id: "project9",
     technologiesUsed: ["VueJS", "Adobe XD", "Figma"],
   },
   {
-    id: "project9",
+    id: "project10",
     technologiesUsed: ["Gatsby", "Decap CMS", "Netlify"],
   },
   {
-    id: "project10",
+    id: "project11",
     technologiesUsed: ["Gatsby", "yarn", "Netlify", "CI/CD", "Google Analytics", "eTracker", "Mailchimp"],
   },
 ];

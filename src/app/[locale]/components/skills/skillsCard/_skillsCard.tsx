@@ -6,9 +6,9 @@ import {
   ChatSquareHeart,
   Crosshair,
   CupHot,
+  Easel,
   EmojiGrin,
   Eyedropper,
-  FiletypeMdx,
   Google,
   Hammer,
   People,
@@ -41,7 +41,7 @@ export default function SkillsCard() {
         <Skill title={t("skill_9")} icon={<Google />} />
         <Skill title={t("skill_10")} icon={<Eyedropper />} />
         <Skill title={t("skill_11")} icon={<CupHot />} />
-        <Skill title={t("skill_12")} icon={<FiletypeMdx />} />
+        <Skill title={t("skill_12")} icon={<Easel />} />
         <Skill title={t("skill_13")} icon={<Screwdriver />} />
         <Skill title={t("skill_14")} icon={<EmojiGrin />} />
       </div>

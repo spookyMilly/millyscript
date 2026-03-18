@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 
 import styles from "@/app/[locale]/components/projects/projectFunFact/projectFunFact.module.scss";
@@ -26,7 +26,11 @@ export default function ProjectFunFacts({ projectId }: ProjectFunFactProps) {
     []
   );
 
-  const [shuffledClassNames] = useState(() => shuffleArray([...colorfulClassNames]));
+  const [shuffledClassNames, setShuffledClassNames] = useState(colorfulClassNames);
+
+  useEffect(() => {
+    setShuffledClassNames(shuffleArray([...colorfulClassNames]));
+  }, [colorfulClassNames]);
 
   return funFacts.length > 0 ? (
     <>

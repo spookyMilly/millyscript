@@ -18,24 +18,24 @@
     "responsibilities": "Auswahl einiger übernommene Aufgaben:",
     "projects": {
       "project1": {
-        "shortTitle": "Modernisierung einer Lagerverwaltung",
-        "projectTitle": "Modernisierung und Weiterentwicklung für die Lagerverwaltung eines renommierten Online-Händlers",
-        "role": "Beraterin, Frontend-Entwicklerin",
-        "customerType": "für einen europaweit operierenden Onlinehändler",
-        "responsibilitiesTaken_1": "Projektkommunikation auf Englisch für eine reibungslose internationale Zusammenarbeit",
-        "responsibilitiesTaken_2": "Durchführung zahlreicher Pair-Programming- und Review-Sessions zur aktiven Wissensvermittlung und Förderung der Zusammenarbeit im Team",
-        "responsibilitiesTaken_3": "Entwicklung spezialisierter Features zur Unterstützung von browserbasierten Anwendungen für Barcode-Scanner, um eine effiziente Datenerfassung zu gewährleisten",
-        "responsibilitiesTaken_4": "Enge Zusammenarbeit mit Logistikexperten und Backend-Entwicklern zur Optimierung und Neuentwicklung von Schnittstellen für eine nahtlose Systemintegration und verbesserten Prozessabläufen",
-        "status": "live",
-        "funFacts_1": "Legacy-Abbau",
-        "funFacts_2": "Automatisiertes Erstellen von Versandetiketten",
-        "funFacts_3": "Fehlerraten bei 25.000 Artikelverköufen/Tag minimiert",
-        "funFacts_4": "Verbesserte Accessibility"
+        "shortTitle": "Design einer Plattform für Arbeitnehmerüberlassungen",
+        "projectTitle": "Design und Entwicklung einer Plattform für Arbeitnehmerüberlassungen",
+        "role": "Design, Frontend",
+        "customerType": "für einen Personaldienstleister",
+        "responsibilitiesTaken_1": "Konzeption und Design zielgruppengerechter Interfaces in Figma (shadcn)",
+        "responsibilitiesTaken_2": "Entwicklung skalierbarer, wiederverwendbarer Komponenten mit Tailwind CSS",
+        "responsibilitiesTaken_3": "Anforderungsdefinition und Projektsteuerung in YouTrack",
+        "responsibilitiesTaken_4": "Planung und Durchführung von Sprint-Reviews mit Stakeholdern",
+        "status": "laufend",
+        "funFacts_1": "Digitalisierung von Bewerbungsprozessen",
+        "funFacts_2": "Erstellen, Versenden und Signieren von Arbeitsverträgen",
+        "funFacts_3": "Planung von Einsätzen und Aufträgen im UI",
+        "funFacts_4": ""
       },
       "project2": {
         "shortTitle": "Neuentwicklung einer Personalvermittlungsplattform",
         "projectTitle": "Neuentwicklung einer Plattform für die Personalvermittlung in der Pflegebranche",
-        "role": "Frontend-Entwicklerin",
+        "role": "Design, Frontend",
         "customerType": "für einen Personalvermittler in der Pflegebranche",
         "responsibilitiesTaken_1": "Entwicklung einer skalierbaren Frontend-Architektur basierend auf modernen Best Practices",
         "responsibilitiesTaken_2": "Schnelle Bereitstellung einer minimal funktionsfähigen Plattform zur frühzeitigen Einbindung der Endnutzer",
@@ -48,9 +48,24 @@
         "funFacts_4": "Starker Anstieg der Conversion-Rate"
       },
       "project3": {
+        "shortTitle": "Modernisierung einer Lagerverwaltung",
+        "projectTitle": "Modernisierung und Weiterentwicklung für die Lagerverwaltung eines renommierten Online-Händlers",
+        "role": "Consulting, Frontend",
+        "customerType": "für einen europaweit operierenden Onlinehändler",
+        "responsibilitiesTaken_1": "Projektkommunikation auf Englisch für eine reibungslose internationale Zusammenarbeit",
+        "responsibilitiesTaken_2": "Durchführung zahlreicher Pair-Programming- und Review-Sessions zur aktiven Wissensvermittlung und Förderung der Zusammenarbeit im Team",
+        "responsibilitiesTaken_3": "Entwicklung spezialisierter Features zur Unterstützung von browserbasierten Anwendungen für Barcode-Scanner, um eine effiziente Datenerfassung zu gewährleisten",
+        "responsibilitiesTaken_4": "Enge Zusammenarbeit mit Logistikexperten und Backend-Entwicklern zur Optimierung und Neuentwicklung von Schnittstellen für eine nahtlose Systemintegration und verbesserten Prozessabläufen",
+        "status": "live",
+        "funFacts_1": "Legacy-Abbau",
+        "funFacts_2": "Automatisiertes Erstellen von Versandetiketten",
+        "funFacts_3": "Fehlerraten bei 25.000 Artikelverköufen/Tag minimiert",
+        "funFacts_4": "Verbesserte Accessibility"
+      },
+      "project4": {
         "shortTitle": "Hochperformanter Fashion-Onlineshop",
         "projectTitle": "Neuentwicklung eines Onlineshops für Streetwear",
-        "role": "Frontend-Entwicklerin",
+        "role": "Frontend",
         "customerType": "für ein deutsches, lokal ansässiges E-Commerce-Unternehmen",
         "responsibilitiesTaken_1": "Einsatz eines Static-Site-Generators  mit SEO-Optimierungen zur Schaffung einer leistungsstarken und schnellen Onlineshop-Plattform",
         "responsibilitiesTaken_2": "Implementierung eines leicht bedienbaren Content-Management-Systems zur flexiblen Verwaltung und Anpassung von Modulen im Onlineshop",
@@ -62,10 +77,10 @@
         "funFacts_3": "Anbindung von Shopify & Xentral",
         "funFacts_4": "CI/CD ermöglicht schnelle Shop-Updates"
       },
-      "project4": {
+      "project5": {
         "shortTitle": "Nutzeroberfläche für Wissenschaftler und KI",
         "projectTitle": "Neuentwicklung einer Nutzeroberflächer für verteiltes Lernen mittels KI",
-        "role": "Frontend-Entwicklerin",
+        "role": "Frontend",
         "customerType": "für ein wissenschaftliches Institut (IT-Forensik und Mediensicherheit)",
         "responsibilitiesTaken_1": "Neuimplementierung einer Web-Anwendung in React mit Vite angepasst auf die Bedürfnisse von Wissenschaftlern zum Trainieren von Modellen",
         "responsibilitiesTaken_2": "Aktives Mitwirken in einem agilen, crossfunktionalen Team mit zweiwöchigen Sprint-Zyklen zur Förderung von Transparenz, Flexibilität und Teameffizienz",
@@ -77,10 +92,10 @@
         "funFacts_3": "",
         "funFacts_4": ""
       },
-      "project5": {
+      "project6": {
         "shortTitle": "Neugestaltung und -entwicklung einer Webseite",
         "projectTitle": "Neuentwicklung und -gestaltung einer Internetpräsenz",
-        "role": "Frontend-Entwicklerin, UX/UI-Designerin",
+        "role": "Frontend, Design",
         "customerType": "für einen IT-Dienstleister",
         "responsibilitiesTaken_1": "Verantwortlich für die gesamte Design- und Frontend-Umsetzung und Koordination sämtlicher relevanten Schritte, um eine benutzerfreundliche und leistungsstarke Weblösung zu gewährleisten",
         "responsibilitiesTaken_2": "Gestaltung und Umsetzung von Designs und Mock-ups, die auf die Anforderungen der Stakeholder und die Bedürfnisse der Zielgruppen abgestimmt waren",
@@ -92,10 +107,10 @@
         "funFacts_3": "UX-Recherchen",
         "funFacts_4": ""
       },
-      "project6": {
+      "project7": {
         "shortTitle": "Browserbasierter Ebook-Reader",
         "projectTitle": "Entwicklung eines browserbasiertem Ebook-Readers für Desktop, Tablet und Mobile",
-        "role": "Frontend-Entwicklerin, UX/UI-Designerin",
+        "role": "Frontend, Design",
         "customerType": "für einen IT-Dienstleister in der Medienbranche",
         "responsibilitiesTaken_1": "Feature-Entwicklung im Frontend unter Verwendung von Clean Code und Clean Architecture-Prinzipien mit Angular",
         "responsibilitiesTaken_2": "Durchführung von Deployment und Release-Management mit Continuous Integration und Continuous Delivery (CI/CD)",
@@ -107,10 +122,10 @@
         "funFacts_3": "Clean Code",
         "funFacts_4": ""
       },
-      "project7": {
+      "project8": {
         "shortTitle": "Online-Service zur Sicherung von Fotografien",
         "projectTitle": "Service zur Markierung von Bildern mit unsichtbaren Wasserzeichen",
-        "role": "Frontend-Entwicklerin, Illustratorin, UX/UI-Designerin",
+        "role": "Frontend, Design",
         "customerType": "für einen IT-Dienstleister in der Mediensicherheitsbranche",
         "responsibilitiesTaken_1": "Anforderungsanalyse und Erstellung von User Stories",
         "responsibilitiesTaken_2": "Feature-Entwicklung unter Verwendung von Clean Code und Clean Architecture-Prinzipien mit VueJS",
@@ -122,10 +137,10 @@
         "funFacts_3": "",
         "funFacts_4": ""
       },
-      "project8": {
+      "project9": {
         "shortTitle": "Re-Design des Ankaufs-Prozesses",
         "projectTitle": "Re-Design des Ankaufs-Prozesses",
-        "role": "UI-Designer, Consultant",
+        "role": "Design",
         "customerType": "für einen Onlinehändler im Outdoor-Bereich für Second-Hand-Kleidung",
         "responsibilitiesTaken_1": "Nutzer können ihre gebrauchten Artikel an den Händler verkaufen; dafür wurde die UI optimiert",
         "responsibilitiesTaken_2": "Beibehaltung der Markensprache, aber im neuen Look für verbesserte Usability",
@@ -137,10 +152,10 @@
         "funFacts_3": "",
         "funFacts_4": ""
       },
-      "project9": {
+      "project10": {
         "shortTitle": "Neuentwicklung eines Onlineblogs",
         "projectTitle": "Neuentwicklung eines Onlineblogs mit Headless CMS",
-        "role": "Frontend-Entwicklerin",
+        "role": "Frontend",
         "customerType": "für ein Unternehmen im Projektmanagement",
         "responsibilitiesTaken_1": "Auf spezielle Wünsche zugeschnittener Blog mittels Static Site Generator für hervorragende Performance",
         "responsibilitiesTaken_2": "Unterstützung und Beratung bei Design & SEO",
@@ -152,10 +167,10 @@
         "funFacts_3": "",
         "funFacts_4": ""
       },
-      "project10": {
+      "project11": {
         "shortTitle": "Erstellen von Landing Pages",
         "projectTitle": "Erstellen von performanten Landing Pages zur Kundenakquise",
-        "role": "Frontend-Entwicklerin",
+        "role": "Frontend",
         "customerType": "für einen IT-Dienstleister",
         "responsibilitiesTaken_1": "in enger Zusammenarbeit mit Marketing & Design wurden Landing Pages zur Kundengewinnung entworfen und umgesetzt",
         "responsibilitiesTaken_2": "",
@@ -183,7 +198,7 @@
     "skill_9": "SEO-Optimierungen",
     "skill_10": "Gestalten und pixelgenaues Umsetzen von Mock-ups",
     "skill_11": "Know-how modernster Best-Practices im Frontend",
-    "skill_12": "Implementierungen von Headless CMS",
+    "skill_12": "UI & UX-Design",
     "skill_13": "Clean Code und Clean Architecture",
     "skill_14": "Unit-Tests, Ende-zu-Ende-Tests, Integration-Tests"
   },

@@ -18,24 +18,24 @@
     "responsibilities": "Responsibilities taken:",
     "projects": {
       "project1": {
-        "shortTitle": "Modernization of warehouse management services",
-        "projectTitle": "Modernization and enhancement of warehouse management for a renowned online retailer",
-        "role": "Consultant, Frontend Developer",
-        "customerType": "for a europe-wide operating online retailer",
-        "responsibilitiesTaken_1": "Managed project communication in English to ensure seamless international collaboration",
-        "responsibilitiesTaken_2": "Conducted pair programming and code reviews to share knowledge",
-        "responsibilitiesTaken_3": "Developed browser-based features for barcode scanners to enable efficient data capture",
-        "responsibilitiesTaken_4": "Collaborated with logistics and backend teams to optimize interfaces and processes",
-        "status": "live",
-        "funFacts_1": "Legacy System Decommissioning",
-        "funFacts_2": "Automated Creation of Shipping Labels",
-        "funFacts_3": "Error Rate Reduced for 25,000 Product Sales/Day",
-        "funFacts_4": "Improved Accessibility"
+        "shortTitle": "Platform for Temporary Staffing",
+        "projectTitle": "Design and Development of a Temporary Staffing Platform",
+        "role": "Design, Frontend",
+        "customerType": "for a Staffing agency",
+        "responsibilitiesTaken_1": "Concept and design of user-centered interfaces in Figma (shadcn)",
+        "responsibilitiesTaken_2": "Development of scalable, reusable components using Tailwind CSS",
+        "responsibilitiesTaken_3": "Requirements definition and project management in YouTrack",
+        "responsibilitiesTaken_4": "Planning and facilitation of sprint reviews with stakeholders",
+        "status": "ongoing",
+        "funFacts_1": "Digitalization of application processes",
+        "funFacts_2": "Creation, sending, and signing of employment contracts",
+        "funFacts_3": "UI for planning assignments and shifts",
+        "funFacts_4": ""
       },
       "project2": {
         "shortTitle": "Recruitment platform with modern tech-stack",
         "projectTitle": "Development of a new platform for recruitment in the healthcare sector",
-        "role": "Frontend Developer",
+        "role": "Design, Frontend",
         "customerType": "for a healthcare company",
         "responsibilitiesTaken_1": "Development of a scalable frontend architecture based on modern best practices",
         "responsibilitiesTaken_2": "Rapid delivery of a functional MVP for early user testing and feedback",
@@ -48,9 +48,24 @@
         "funFacts_4": "Conversion rates were strongly increased"
       },
       "project3": {
+        "shortTitle": "Modernization of warehouse management services",
+        "projectTitle": "Modernization and enhancement of warehouse management for a renowned online retailer",
+        "role": "Consultant, Frontend",
+        "customerType": "for a europe-wide operating online retailer",
+        "responsibilitiesTaken_1": "Managed project communication in English to ensure seamless international collaboration",
+        "responsibilitiesTaken_2": "Conducted pair programming and code reviews to share knowledge",
+        "responsibilitiesTaken_3": "Developed browser-based features for barcode scanners to enable efficient data capture",
+        "responsibilitiesTaken_4": "Collaborated with logistics and backend teams to optimize interfaces and processes",
+        "status": "live",
+        "funFacts_1": "Legacy System Decommissioning",
+        "funFacts_2": "Automated Creation of Shipping Labels",
+        "funFacts_3": "Error Rate Reduced for 25,000 Product Sales/Day",
+        "funFacts_4": "Improved Accessibility"
+      },
+      "project4": {
         "shortTitle": "Highly performant online shop",
         "projectTitle": "Development of a new online shop for streetwear",
-        "role": "Frontend Developer",
+        "role": "Frontend",
         "customerType": "for a German, locally based e-commerce company",
         "responsibilitiesTaken_1": "Utilized a static site generator with SEO optimizations to create a high-performance and fast online shop platform",
         "responsibilitiesTaken_2": "Implemented an easy-to-use content management system for flexible management and customization of shop modules",
@@ -62,10 +77,10 @@
         "funFacts_3": "Connected to Shopify & Xentral",
         "funFacts_4": "CI/CD enable fast shop updates"
       },
-      "project4": {
+      "project5": {
         "shortTitle": "User interface for scientists",
         "projectTitle": "Development of a user interface for distributed learning using AI",
-        "role": "Frontend Developer",
+        "role": "Frontend",
         "customerType": "for a scientific institute (IT forensics and media security)",
         "responsibilitiesTaken_1": "Redesigned and implemented a web application in React with Vite, tailored for scientists to train models",
         "responsibilitiesTaken_2": "Actively participated in an agile, cross-functional team with bi-weekly sprints to enhance transparency, flexibility, and team efficiency",
@@ -77,10 +92,10 @@
         "funFacts_3": "",
         "funFacts_4": ""
       },
-      "project5": {
+      "project6": {
         "shortTitle": "Webapp relaunch and redesign",
         "projectTitle": "Development and redesign of an online presence",
-        "role": "Frontend Developer, UX/UI Designer",
+        "role": "Frontend, Design",
         "customerType": "for an IT service provider",
         "responsibilitiesTaken_1": "Oversaw design and frontend implementation to deliver a user-friendly, high-performance web solution",
         "responsibilitiesTaken_2": "Created designs and mock-ups tailored to stakeholder requirements and target audience needs",
@@ -92,10 +107,10 @@
         "funFacts_3": "UX Research",
         "funFacts_4": ""
       },
-      "project6": {
+      "project7": {
         "shortTitle": "Browser-based ebook reader",
         "projectTitle": "Development of a browser-based ebook reader for desktop, tablet, and mobile",
-        "role": "Frontend Developer, UX/UI Designer",
+        "role": "Frontend, Design",
         "customerType": "for an IT service provider in the media industry",
         "responsibilitiesTaken_1": "Developed frontend features using Clean Code and Clean Architecture principles with Angular",
         "responsibilitiesTaken_2": "Managed deployments and release cycles with Continuous Integration and Continuous Delivery (CI/CD)",
@@ -107,10 +122,10 @@
         "funFacts_3": "Clean Code",
         "funFacts_4": ""
       },
-      "project7": {
+      "project8": {
         "shortTitle": "Online service to secure photographs",
         "projectTitle": "Service for marking images with invisible watermarks",
-        "role": "Frontend Developer, Illustrator, UX/UI Designer",
+        "role": "Frontend, Design",
         "customerType": "for an IT service provider in the media security sector",
         "responsibilitiesTaken_1": "Performed requirements analysis and created user stories",
         "responsibilitiesTaken_2": "Developed features using Clean Code and Clean Architecture principles with VueJS",
@@ -122,10 +137,10 @@
         "funFacts_3": "",
         "funFacts_4": ""
       },
-      "project8": {
+      "project9": {
         "shortTitle": "Redesign of the acquisition process",
         "projectTitle": "Redesign of the acquisition process",
-        "role": "UI Designer, Consultant",
+        "role": "Design",
         "customerType": "for an online second-hand retailer in the outdoor sector",
         "responsibilitiesTaken_1": "Users are able to sell their used outdoor clothes to the retailer with a user-friendly interface",
         "responsibilitiesTaken_2": "Maintaining the brand language but with a new look for improved usability",
@@ -137,10 +152,10 @@
         "funFacts_3": "",
         "funFacts_4": ""
       },
-      "project9": {
+      "project10": {
         "shortTitle": "Development of a management blog",
         "projectTitle": "Development of next-gen project management blog with headless CMS",
-        "role": "Frontend Developer",
+        "role": "Frontend",
         "customerType": "for a project management company",
         "responsibilitiesTaken_1": "Custom blog using a static site generator for excellent performance",
         "responsibilitiesTaken_2": "Support and consulting for design & SEO",
@@ -152,10 +167,10 @@
         "funFacts_3": "",
         "funFacts_4": ""
       },
-      "project10": {
+      "project11": {
         "shortTitle": "Creating Landing Pages",
         "projectTitle": "Creating high-performance landing pages for customer acquisition",
-        "role": "Frontend Developer",
+        "role": "Frontend",
         "customerType": "for an IT service provider",
         "responsibilitiesTaken_1": "Landing pages for customer acquisition were designed and implemented in close collaboration with marketing & design",
         "responsibilitiesTaken_2": "",
@@ -183,7 +198,7 @@
     "skill_9": "SEO optimizations",
     "skill_10": "Designing and pixel-perfect implementation of mock-ups",
     "skill_11": "Expertise in state-of-the-art best practices in frontend development",
-    "skill_12": "Implementations of headless CMS",
+    "skill_12": "UI & UI Design",
     "skill_13": "Clean Code and Clean Architecture",
     "skill_14": "Unit Tests, E2E testing, Integration Tests"
   },
