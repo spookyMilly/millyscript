@@ -1,0 +1,32 @@
+@use "src/app/styles/variables.module" as *;
+
+.skillsCardGrid {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  grid-column-gap: 4rem;
+
+  @media screen and (max-width: $screen-m) {
+    grid-template-columns: auto;
+  }
+}
+
+.skillsCardHeading {
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.titleBorder {
+  border-top: 3px solid $skillsOrange;
+  opacity: 1;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 1rem;
+
+  @media screen and (max-width: $screen-m) {
+    grid-template-columns: auto;
+  }
+}

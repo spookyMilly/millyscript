@@ -1,36 +1,48 @@
 {
-    "name": "millyscript",
-    "version": "0.1.0",
-    "private": true,
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint",
-        "autofix": "npx eslint . --fix"
-    },
-    "dependencies": {
-        "@svgr/webpack": "^8.1.0",
-        "bootstrap": "^5.3.3",
-        "clsx": "^2.1.1",
-        "motion": "^12.4.2",
-        "next": "14.2.18",
-        "next-intl": "^3.25.3",
-        "react": "^18",
-        "react-bootstrap": "^2.10.6",
-        "react-bootstrap-icons": "^1.11.4",
-        "react-dom": "^18",
-        "sass": "^1.98.0"
-    },
-    "devDependencies": {
-        "@types/node": "^25",
-        "@types/react": "^19",
-        "@types/react-dom": "^19",
-        "eslint": "^10",
-        "eslint-config-next": "16.1.7",
-        "eslint-config-prettier": "^10.1.8",
-        "eslint-plugin-simple-import-sort": "^12.1.1",
-        "prettier": "3.8.1",
-        "typescript": "^5"
-    }
+  "name": "millyscript",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "autofix": "eslint \"src/**/*.{js,ts,jsx,tsx}\" --fix",
+    "format": "prettier \"**/*.{js,ts,jsx,tsx,json,md,css,scss,yml,yaml}\" --write ."
+  },
+  "dependencies": {
+    "@eslint/eslintrc": "^3.3.5",
+    "@svgr/webpack": "^8.1.0",
+    "bootstrap": "^5.3.3",
+    "clsx": "^2.1.1",
+    "motion": "^12.4.2",
+    "next": "^15.5.13",
+    "next-intl": "^4.8.3",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.6",
+    "react-bootstrap-icons": "^1.11.4",
+    "react-dom": "^19.0.0",
+    "sass": "^1.98.0"
+  },
+  "devDependencies": {
+    "@types/node": "25.5.0",
+    "@typescript-eslint/eslint-plugin": "^8.36.0",
+    "@typescript-eslint/parser": "^8.36.0",
+    "eslint": "^9.24.0",
+    "@eslint/js": "^9.24.0",
+    "@eslint/eslintrc": "^3",
+    "eslint-config-next": "15.3.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  },
+  "overrides": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
 }

@@ -1,0 +1,18 @@
+@use "src/app/styles/variables.module" as *;
+
+.type {
+  text-transform: uppercase;
+  color: $midBlue;
+}
+
+.heading {
+  color: $cornflowerBlue;
+}
+
+.workshopLink {
+  text-decoration: none;
+}
+
+.workshopLink:hover {
+  border-bottom: 0;
+}
